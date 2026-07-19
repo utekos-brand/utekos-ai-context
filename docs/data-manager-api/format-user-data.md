@@ -1,3 +1,5 @@
+# Format UserData
+
 The Data Manager API supports uploading multiple types of user data. Follow the
 formatting, hashing, and encoding requirements for each data element so that
 your data is received and processed successfully.
