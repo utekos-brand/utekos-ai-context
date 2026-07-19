@@ -1,3 +1,5 @@
+# UserData Encryption
+
 The Data Manager API supports data encryption using the following key management services:
 
 - [Google Cloud Key Management Service](https://developers.google.com/data-manager/api/devguides/concepts/encryption#setup_kms)
