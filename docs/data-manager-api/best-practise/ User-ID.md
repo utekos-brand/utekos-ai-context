@@ -29,7 +29,3 @@ In GA4, when User-ID is included in the reporting identity, de-duplication is ap
 GA4 BigQuery Export includes both Client ID (`user_pseudo_id`) and User ID (`user_id`) in the schema.
 
 ---
-
-Give feedback about this article
-
-## Was this helpful?
