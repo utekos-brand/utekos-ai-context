@@ -1,3 +1,5 @@
+# Configure destinations and headers
+
 Both the [`Destination`](https://developers.google.com/data-manager/api/reference/rest/v1/Destination) concept and request headers appear
 frequently when working with the Data Manager API. Read this guide to understand
 how to configure destinations and headers for different scenarios.
