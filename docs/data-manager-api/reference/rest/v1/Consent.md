@@ -1,4 +1,3 @@
-reference/rest/v1/Consent
 # Consent
 
 - [JSON representation](https://developers.google.com/data-manager/api/reference/rest/v1/Consent#SCHEMA_REPRESENTATION)
