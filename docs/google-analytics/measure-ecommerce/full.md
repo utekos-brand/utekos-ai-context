@@ -1,4 +1,4 @@
-# Measure ecommerce Stay organized with collections Save and categorize content based on your preferences.
+# Measure ecommerce
 
 - On this page
 - [Before you begin](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtm#before_you_begin)
