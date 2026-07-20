@@ -1,0 +1,221 @@
+{
+  "mcpServers": {
+    "google-tag-manager-mcp-server": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://gtm-mcp.stape.ai/mcp"
+      ],
+      "tools": [
+        "gtm_account",
+        "gtm_built_in_variable",
+        "gtm_client",
+        "gtm_container",
+        "gtm_destination",
+        "gtm_environment",
+        "gtm_folder",
+        "gtm_gtag_config",
+        "gtm_remove_session",
+        "gtm_tag",
+        "gtm_template",
+        "gtm_transformation",
+        "gtm_trigger",
+        "gtm_user_permission",
+        "gtm_variable",
+        "gtm_version",
+        "gtm_version_header",
+        "gtm_workspace",
+        "gtm_zone"
+      ]
+    },
+    "vercel": {
+      "type": "http",
+      "url": "https://mcp.vercel.com",
+      "tools": [
+        "add_toolbar_reaction",
+        "change_toolbar_thread_resolve_status",
+        "check_domain_availability_and_price",
+        "deploy_to_vercel",
+        "edit_toolbar_message",
+        "get_access_to_vercel_url",
+        "get_deployment",
+        "get_deployment_build_logs",
+        "get_project",
+        "get_runtime_logs",
+        "get_toolbar_thread",
+        "list_deployments",
+        "list_projects",
+        "list_teams",
+        "list_toolbar_threads",
+        "reply_to_toolbar_thread",
+        "search_vercel_documentation",
+        "web_fetch_vercel_url"
+      ]
+    },
+    "wcag": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "wcag-guidelines-mcp"
+      ],
+      "tools": [
+        "count-criteria",
+        "get-criteria-by-level",
+        "get-criterion",
+        "get-failures-for-criterion",
+        "get-full-criterion-context",
+        "get-glossary-term",
+        "get-guideline",
+        "get-server-info",
+        "get-success-criteria-detail",
+        "get-technique",
+        "get-techniques-for-criterion",
+        "list-glossary-terms",
+        "list-guidelines",
+        "list-principles",
+        "list-success-criteria",
+        "list-techniques",
+        "search-glossary",
+        "search-techniques",
+        "search-wcag",
+        "whats-new-in-wcag22"
+      ]
+    },
+    "tailwindcss-server": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "tailwindcss-mcp-server"
+      ],
+      "tools": [
+        "get_tailwind_utilities",
+        "get_tailwind_colors",
+        "get_tailwind_config_guide",
+        "search_tailwind_docs",
+        "install_tailwind",
+        "convert_css_to_tailwind",
+        "generate_color_palette",
+        "generate_component_template"
+      ]
+    },
+    "shadcn": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "shadcn@latest",
+        "mcp"
+      ],
+      "tools": [
+        "get_project_registries",
+        "list_items_in_registries",
+        "search_items_in_registries",
+        "view_items_in_registries",
+        "get_item_examples_from_registries",
+        "get_add_command_for_items",
+        "get_audit_checklist"
+      ]
+    },
+    "chrome-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "chrome-devtools-mcp@latest"
+      ],
+      "tools": [
+        "click",
+        "drag",
+        "fill",
+        "fill_form",
+        "handle_dialog",
+        "hover",
+        "press_key",
+        "type_text",
+        "upload_file",
+        "close_page",
+        "list_pages",
+        "navigate_page",
+        "new_page",
+        "resize_page",
+        "select_page",
+        "wait_for",
+        "emulate",
+        "performance_analyze_insight",
+        "performance_start_trace",
+        "performance_stop_trace",
+        "get_network_request",
+        "list_network_requests",
+        "evaluate_script",
+        "get_console_message",
+        "lighthouse_audit",
+        "list_console_messages",
+        "take_screenshot",
+        "take_snapshot",
+        "take_heapsnapshot"
+      ]
+    },
+    "mdn": {
+      "type": "http",
+      "url": "https://mcp.mdn.mozilla.net/",
+      "tools": [
+        "search",
+        "get-doc",
+        "get-compat"
+      ]
+    },
+    "next-devtools": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "next-devtools-mcp@latest"
+      ],
+      "tools": [
+        "browser_eval",
+        "enable_cache_components",
+        "init",
+        "nextjs_call",
+        "nextjs_docs",
+        "nextjs_index",
+        "upgrade_nextjs_16"
+      ]
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ],
+      "tools": [
+        "browser_click",
+        "browser_close",
+        "browser_console_messages",
+        "browser_drag",
+        "browser_drop",
+        "browser_evaluate",
+        "browser_file_upload",
+        "browser_fill_form",
+        "browser_find",
+        "browser_handle_dialog",
+        "browser_hover",
+        "browser_navigate",
+        "browser_navigate_back",
+        "browser_network_request",
+        "browser_network_requests",
+        "browser_press_key",
+        "browser_resize",
+        "browser_run_code_unsafe",
+        "browser_select_option",
+        "browser_snapshot",
+        "browser_tabs",
+        "browser_take_screenshot",
+        "browser_type",
+        "browser_wait_for"
+      ]
+    }
+  }
+}
