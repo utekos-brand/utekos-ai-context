@@ -1,0 +1,94 @@
+# utekos-ai-context
+
+> AI context bundle for the Utekos brand. Contains curated LangSmith / Deep Agents documentation mirrors and Spor design tokens. Agents referred to this repo should use this file as the sitemap to locate documentation and sources. All paths are relative to the repository root.
+
+## Start Here
+
+- [Context bundle index](docs/langsmith/index.md): Read-first list, operating rules, MCP profiles and canonical tools, verification baseline, critical prohibitions
+- [Upstream docs index](docs/langsmith/llms.txt): Pointer to the complete LangChain reference documentation index (reference.langchain.com/llms.txt)
+
+## Deep Agents SDK (deepagents, OSS)
+
+- [Deep Agents overview](docs/langsmith/deep-agents/Overview.md): Core capabilities — execution environment, context management, delegation, steering
+- [Quickstart](docs/langsmith/get-started/QuickStart.md): Build your first deep agent with planning, filesystem tools, and subagents
+- [Subagents (synchronous)](docs/langsmith/deep-agents/SubAgents.md): Delegate work and keep context clean with the `subagents` parameter
+- [Async subagents](docs/langsmith/deep-agents/async-subagents.md): Background subagents that run concurrently with the supervisor
+- [LangSmith JS/TS client SDK](docs/langsmith/deep-agents/langsmith-sdk-client.md): TypeScript client for the LangSmith platform
+
+## Deep Agents SDK — API Reference (JavaScript)
+
+- [deepagents package](docs/langsmith/deep-agents/reference/deepagents.md): Full package reference with README
+- [deepagents package (short)](docs/langsmith/deep-agents/reference/deepagent.md): Compact class/interface/type listing
+- [Agent / createDeepAgent](docs/langsmith/deep-agents/reference/agent.md): Main entry point, CreateDeepAgentParams, DeepAgent, SubAgent types
+- [Backends](docs/langsmith/deep-agents/reference/backends.md): StateBackend, StoreBackend, FilesystemBackend, CompositeBackend, BaseSandbox
+- [Backends guide](docs/langsmith/deep-agents/reference/backends.mdx): Choosing and configuring backends
+- [BackendFactory](docs/langsmith/deep-agents/reference/BackendFactory.md): Factory type for creating backend instances
+- [Middleware](docs/langsmith/deep-agents/reference/metadata.md): createFilesystemMiddleware, createSubAgentMiddleware, createMemoryMiddleware, and more
+
+## Deep Agents Code (dcode terminal agent)
+
+- [Overview and quickstart](docs/langsmith/deep-agents/code/overview.md): Install, provider credentials, launch
+- [Memory and skills](docs/langsmith/deep-agents/code/memories.md): AGENTS.md files, auto-saved memories, reusable skills
+- [Remote sandboxes](docs/langsmith/deep-agents/code/sandbox.md): LangSmith, AgentCore, Daytona, Modal, Runloop, Vercel sandboxes
+- [Subagents in dcode](docs/langsmith/deep-agents/code/subagents.md): Define subagents as AGENTS.md files with YAML frontmatter
+- [Reference: configuration](docs/langsmith/deep-agents/reference/code/configuration.md): Model provider configuration
+- [Reference: model providers](docs/langsmith/deep-agents/reference/code/model-providers.md): Provider packages and compatible APIs
+- [Reference: MCP tools](docs/langsmith/deep-agents/reference/code/mcp-tools.md): Load tools from MCP servers
+- [Reference: app data](docs/langsmith/deep-agents/reference/code/app-data.md): MCP tools and app data
+- [Reference: memory and skills](docs/langsmith/deep-agents/reference/code/memory-and-skill.md): Persistent memory reference
+- [Reference: remote sandboxes](docs/langsmith/deep-agents/reference/code/remote-sansboxes.md): Sandbox provider reference
+- [Reference: subagents](docs/langsmith/deep-agents/reference/code/subagents.md): Subagent definition reference
+- [Reference: agent](docs/langsmith/deep-agents/reference/code.md): createDeepAgent reference (dcode variant)
+
+## Managed Deep Agents (LangSmith-hosted, private beta)
+
+- [Quickstart](docs/langsmith/managed-deep-agents/quickstart.md): Create an agent with the CLI or SDK, then run it
+- [CLI reference](docs/langsmith/managed-deep-agents/CLI.md): deepagents-cli commands, project files, deploy behavior
+- [SDK](docs/langsmith/managed-deep-agents/SDK.md): Threads, runs, and streaming with Python/TypeScript SDKs
+- [Run an agent](docs/langsmith/managed-deep-agents/run-agent.md): Create threads and stream runs
+- [Deploy an agent](docs/langsmith/managed-deep-agents/deploy-managed-deep-agent.md): Full deploy workflow — project files, MCP tools, subagents, backends, REST API
+- [Connect MCP tools](docs/langsmith/managed-deep-agents/connect-tools.md): Register and connect MCP servers with per-user OAuth
+
+## LangSmith Platform Setup
+
+- [Set up LangSmith](docs/langsmith/setup/Setup.md): Choose Cloud or Self-hosted deployment mode
+- [User management](docs/langsmith/setup/Hybrid.md): Customize user management (admin guide)
+- [LangChain.js package](docs/langsmith/setup/deployment.md): LangChain JS/TS package reference
+- [Trace with LangGraph](docs/langsmith/setup/trace-with-langgraph.md): Tracing LangGraph applications
+- [Cloud (SaaS) architecture](docs/langsmith/setup/cloud/cloud-saas.md): Managed cloud architecture reference
+- [Deploy on Cloud](docs/langsmith/setup/cloud/deploy-on-cloud.md): Deployments, revisions, logs, metrics, settings
+
+## LangSmith Self-Hosted (Enterprise)
+
+- [Overview](docs/langsmith/setup/self-hosted/overview.md): Self-hosted architecture and options
+- [Kubernetes](docs/langsmith/setup/self-hosted/self-hos-kubernites.md): Deploy on Kubernetes
+- [AWS](docs/langsmith/setup/self-hosted/AWS.md): AWS deployment guide
+- [GCP](docs/langsmith/setup/self-hosted/GCP.md): GCP deployment guide
+- [Azure](docs/langsmith/setup/self-hosted/azure.md): Azure deployment guide
+- [Blob storage](docs/langsmith/setup/self-hosted/self-host-blob-storage.md): Configure blob storage
+- [External ClickHouse](docs/langsmith/setup/self-hosted/self-host-external-clickhouse.md): Use an external ClickHouse instance
+- [Managed ClickHouse](docs/langsmith/setup/self-hosted/langsmith-managed-clickhouse.md): LangSmith-managed ClickHouse
+- [ClickHouse stats script](docs/langsmith/setup/self-hosted/script-generate-clickhouse-stats.md): Generate ClickHouse statistics
+- [Ingress](docs/langsmith/setup/self-hosted/self-host-ingress.md): Ingress configuration
+- [User management](docs/langsmith/setup/self-hosted/self-host-user-management.md): Users and access
+- [UI customization](docs/langsmith/setup/self-hosted/self-host-ui-customization.md): Customize the self-hosted UI
+- [Usage](docs/langsmith/setup/self-hosted/self-host-usage.md): Usage tracking
+- [Export backend](docs/langsmith/setup/self-hosted/export-backed.md): Data export
+- [LLM auth proxy](docs/langsmith/setup/self-hosted/llm-auth-proxy-self-hosted.md): Authentication proxy for LLM providers
+- [Mirror images](docs/langsmith/setup/self-hosted/mirror-images.md): Mirror container images
+- [FIPS images](docs/langsmith/setup/self-hosted/FIPS-Images.md): FIPS-compliant images
+- [Dependency versions](docs/langsmith/setup/self-hosted/dependancy-versions.md): Supported dependency versions
+- [Additional features](docs/langsmith/setup/self-hosted/enable-additional-features.md): Enable optional features
+
+## Package References
+
+- [langsmith (Python)](docs/langsmith/reference/langSmith.md): Python package — schemas, datasets, runs, examples
+- [@langchain/google-genai](docs/langsmith/integrations/langchain-google-genai.md): Google Generative AI integration for LangChain JS
+
+## Design Tokens
+
+- [Spor design tokens](docs/spor/spor-design-tokens.json): Vy Spor design system tokens (color, light/dark modes)
+
+## Related Repositories
+
+- [utekos-brand/ebm](https://github.com/utekos-brand/ebm): Evidence Based Marketing science library — How Brands Grow, The Long and the Short of It, attention economy, distinctive brand assets, creative effectiveness. See its `llms.txt` for the sitemap.
