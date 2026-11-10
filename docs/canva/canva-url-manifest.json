@@ -1,0 +1,6172 @@
+{
+  "description": "URL-to-file map generated from official Canva Apps and Admin llms.txt indexes. Existing files were preserved.",
+  "source_indexes": [
+    "https://www.canva.dev/docs/apps/llms.txt",
+    "https://www.canva.dev/docs/admin/llms.txt"
+  ],
+  "pages": [
+    {
+      "path": "docs/canva/admin/api-reference/audit-events/list-audit-events.md",
+      "title": "List audit events",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/audit-events/list-audit-events.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/create-group-member.md",
+      "title": "Create group member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/create-group-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/create-group.md",
+      "title": "Create group",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/create-group.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/delete-group-member.md",
+      "title": "Delete group member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/delete-group-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/delete-group.md",
+      "title": "Delete group",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/delete-group.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/get-group-member.md",
+      "title": "Get group member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/get-group-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/get-group.md",
+      "title": "Get group",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/get-group.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/list-group-members.md",
+      "title": "List group members",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/list-group-members.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/list-groups.md",
+      "title": "List groups",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/list-groups.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/update-group-member.md",
+      "title": "Update group member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/update-group-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/groups/update-group.md",
+      "title": "Update group",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/groups/update-group.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/oauth/generate-access-token.md",
+      "title": "Generate access token",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/oauth/generate-access-token.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/organizations/get-organization.md",
+      "title": "Get organization",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/organizations/get-organization.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/cancel-team-invitation.md",
+      "title": "Cancel team invitation",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/cancel-team-invitation.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/create-team-invitation.md",
+      "title": "Create team invitation",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/create-team-invitation.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/create-team-member.md",
+      "title": "Create team member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/create-team-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/create-team.md",
+      "title": "Create team",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/create-team.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/delete-team-member.md",
+      "title": "Delete team member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/delete-team-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/delete-team.md",
+      "title": "Delete team",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/delete-team.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/find-team-invitation.md",
+      "title": "Find team invitation",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/find-team-invitation.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/get-team-member.md",
+      "title": "Get team member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/get-team-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/get-team.md",
+      "title": "Get team",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/get-team.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/list-team-invitations.md",
+      "title": "List team invitations",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/list-team-invitations.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/list-team-members.md",
+      "title": "List team members",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/list-team-members.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/list-teams.md",
+      "title": "List teams",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/list-teams.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/update-team-member.md",
+      "title": "Update team member",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/update-team-member.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/teams/update-team.md",
+      "title": "Update team",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/teams/update-team.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/users/create-user.md",
+      "title": "Create user",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/users/create-user.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/users/find-user.md",
+      "title": "Find user",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/users/find-user.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/users/get-user.md",
+      "title": "Get user",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/users/get-user.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/users/list-user-group-memberships.md",
+      "title": "List user group memberships",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/users/list-user-group-memberships.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/users/list-user-team-memberships.md",
+      "title": "List user team memberships",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/users/list-user-team-memberships.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/users/list-users.md",
+      "title": "List users",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/users/list-users.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-reference/users/update-user.md",
+      "title": "Update user",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-reference/users/update-user.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/api-requests-responses.md",
+      "title": "API requests & responses",
+      "urls": [
+        "https://www.canva.dev/docs/admin/api-requests-responses.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/appendix/scopes.md",
+      "title": "Scopes",
+      "urls": [
+        "https://www.canva.dev/docs/admin/appendix/scopes.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "preserved-existing"
+    },
+    {
+      "path": "docs/canva/admin/authentication.md",
+      "title": "Authentication",
+      "urls": [
+        "https://www.canva.dev/docs/admin/authentication.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/canva-concepts.md",
+      "title": "Canva concepts",
+      "urls": [
+        "https://www.canva.dev/docs/admin/canva-concepts.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/admin/changelog.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/creating-clients.md",
+      "title": "Creating clients",
+      "urls": [
+        "https://www.canva.dev/docs/admin/creating-clients.md",
+        "https://www.canva.dev/docs/admin/creating-clients/"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/error-responses.md",
+      "title": "Error responses",
+      "urls": [
+        "https://www.canva.dev/docs/admin/error-responses.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/admin/index.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/admin.md"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/accepting-payments.md",
+      "title": "External payment links",
+      "urls": [
+        "https://www.canva.dev/docs/apps/accepting-payments.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/analytics.md",
+      "title": "Analytics",
+      "urls": [
+        "https://www.canva.dev/docs/apps/analytics.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/app-scripts-build.md",
+      "title": "build",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/app-scripts-build.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/app-scripts-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/app-scripts-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/app-scripts-define-config.md",
+      "title": "defineConfig",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/app-scripts-define-config.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/app-scripts-dev.md",
+      "title": "dev",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/app-scripts-dev.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/app-scripts-extract-translations.md",
+      "title": "extractTranslations",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/app-scripts-extract-translations.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/app-scripts-prepare-config.md",
+      "title": "prepareConfig",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/app-scripts-prepare-config.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-find-fonts.md",
+      "title": "findFonts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-find-fonts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-get-temporary-url.md",
+      "title": "getTemporaryUrl",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-get-temporary-url.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-open-color-selector.md",
+      "title": "openColorSelector",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-open-color-selector.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-request-font-selection.md",
+      "title": "requestFontSelection",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-request-font-selection.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-search-fonts.md",
+      "title": "searchFonts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-search-fonts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-test-init-test-environment.md",
+      "title": "initTestEnvironment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-test-init-test-environment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/asset-upload.md",
+      "title": "upload",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/asset-upload.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-add-audio-track.md",
+      "title": "addAudioTrack",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-add-audio-track.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-add-element-at-cursor.md",
+      "title": "addElementAtCursor",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-add-element-at-cursor.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-add-element-at-point.md",
+      "title": "addElementAtPoint",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-add-element-at-point.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-add-native-element.md",
+      "title": "addNativeElement",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-add-native-element.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-add-page.md",
+      "title": "addPage",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-add-page.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-apply-template.md",
+      "title": "applyTemplate",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-apply-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-autofill-design.md",
+      "title": "autofillDesign",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-autofill-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-bulk-create-launch.md",
+      "title": "bulkCreate.launch",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-bulk-create-launch.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-create-richtext-range.md",
+      "title": "createRichtextRange",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-create-richtext-range.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-edit-content.md",
+      "title": "editContent",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-edit-content.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-brand-kit-colors.md",
+      "title": "getBrandKitColors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-brand-kit-colors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-brand-template-metadata.md",
+      "title": "getBrandTemplateMetadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-brand-template-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-current-page-context.md",
+      "title": "getCurrentPageContext",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-current-page-context.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-current-page-metadata.md",
+      "title": "getCurrentPageMetadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-current-page-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-default-page-dimensions.md",
+      "title": "getDefaultPageDimensions",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-default-page-dimensions.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-design-colors.md",
+      "title": "getDesignColors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-design-colors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-design-metadata.md",
+      "title": "getDesignMetadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-design-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-design-template-metadata.md",
+      "title": "getDesignTemplateMetadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-design-template-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-get-design-token.md",
+      "title": "getDesignToken",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-get-design-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-init-app-element.md",
+      "title": "initAppElement",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-init-app-element.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-open-design.md",
+      "title": "openDesign",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-open-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-overlay-register-on-can-open.md",
+      "title": "overlay.registerOnCanOpen",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-overlay-register-on-can-open.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-publish-launch.md",
+      "title": "publish.launch",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-publish-launch.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-request-apply-public-template.md",
+      "title": "requestApplyPublicTemplate",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-request-apply-public-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-request-brand-templates.md",
+      "title": "requestBrandTemplates",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-request-brand-templates.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-request-data-field-matching.md",
+      "title": "requestDataFieldMatching",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-request-data-field-matching.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-request-export.md",
+      "title": "requestExport",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-request-export.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-selection-register-on-change.md",
+      "title": "selection.registerOnChange",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-selection-register-on-change.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-set-current-page-background.md",
+      "title": "setCurrentPageBackground",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-set-current-page-background.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-set-data-field-label-visibility.md",
+      "title": "setDataFieldLabelVisibility",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-set-data-field-label-visibility.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-test-init-test-environment.md",
+      "title": "initTestEnvironment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-test-init-test-environment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-ui-start-drag-to-cursor.md",
+      "title": "ui.startDragToCursor",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-ui-start-drag-to-cursor.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-ui-start-drag-to-point.md",
+      "title": "ui.startDragToPoint",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-ui-start-drag-to-point.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/design-ui-start-drag.md",
+      "title": "ui.startDrag",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/design-ui-start-drag.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/error-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/error-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/error-test-init-test-environment.md",
+      "title": "initTestEnvironment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/error-test-init-test-environment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/intents-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/intents-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/intents-content-prepare-content-publisher.md",
+      "title": "prepareContentPublisher",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/intents-content-prepare-content-publisher.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/intents-data-prepare-data-connector.md",
+      "title": "prepareDataConnector",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/intents-data-prepare-data-connector.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/intents-data-request-data-table.md",
+      "title": "requestDataTable",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/intents-data-request-data-table.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/intents-design-prepare-design-editor.md",
+      "title": "prepareDesignEditor",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/intents-design-prepare-design-editor.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/intents-test-init-test-environment.md",
+      "title": "initTestEnvironment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/intents-test-init-test-environment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-broadcast-message.md",
+      "title": "appProcess.broadcastMessage",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-broadcast-message.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-current-get-info.md",
+      "title": "appProcess.current.getInfo",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-current-get-info.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-current-request-close.md",
+      "title": "appProcess.current.requestClose",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-current-request-close.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-current-set-on-dispose.md",
+      "title": "appProcess.current.setOnDispose",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-current-set-on-dispose.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-current.md",
+      "title": "appProcess.current",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-current.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-register-on-message.md",
+      "title": "appProcess.registerOnMessage",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-register-on-message.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-register-on-state-change.md",
+      "title": "appProcess.registerOnStateChange",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-register-on-state-change.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process-request-close.md",
+      "title": "appProcess.requestClose",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process-request-close.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-app-process.md",
+      "title": "appProcess",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-app-process.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-features-is-supported.md",
+      "title": "features.isSupported",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-features-is-supported.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-features-register-on-support-change.md",
+      "title": "features.registerOnSupportChange",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-features-register-on-support-change.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-get-platform-info.md",
+      "title": "getPlatformInfo",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-get-platform-info.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-notification-add-toast.md",
+      "title": "notification.addToast",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-notification-add-toast.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-request-open-external-url.md",
+      "title": "requestOpenExternalUrl",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-request-open-external-url.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/platform-test-init-test-environment.md",
+      "title": "initTestEnvironment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/platform-test-init-test-environment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/test-init-test-environment.md",
+      "title": "initTestEnvironment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/test-init-test-environment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/user-auth-get-canva-user-token.md",
+      "title": "auth.getCanvaUserToken",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/user-auth-get-canva-user-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/user-auth-init-oauth.md",
+      "title": "auth.initOauth",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/user-auth-init-oauth.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/user-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/user-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/user-monetization-is-enabled.md",
+      "title": "monetization.isEnabled",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/user-monetization-is-enabled.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/user-monetization-open-tracking-session.md",
+      "title": "monetization.openTrackingSession",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/user-monetization-open-tracking-session.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/user-monetization-request-enable-billable-action.md",
+      "title": "monetization.requestEnableBillableAction",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/user-monetization-request-enable-billable-action.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/latest/user-test-init-test-environment.md",
+      "title": "initTestEnvironment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/latest/user-test-init-test-environment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/app-middleware-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/app-middleware-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/app-middleware-express-brand-template-verify-token.md",
+      "title": "brandTemplate.verifyToken",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/app-middleware-express-brand-template-verify-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/app-middleware-express-design-verify-token.md",
+      "title": "design.verifyToken",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/app-middleware-express-design-verify-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/app-middleware-init-brand-template-token-verifier.md",
+      "title": "initBrandTemplateTokenVerifier",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/app-middleware-init-brand-template-token-verifier.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/app-middleware-init-design-token-verifier.md",
+      "title": "initDesignTokenVerifier",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/app-middleware-init-design-token-verifier.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/asset-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/asset-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/asset-search-fonts.md",
+      "title": "searchFonts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/asset-search-fonts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-apply-template.md",
+      "title": "applyTemplate",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-apply-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-autofill-design.md",
+      "title": "autofillDesign",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-autofill-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-duplicate-page.md",
+      "title": "duplicatePage",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-duplicate-page.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-edit-content.md",
+      "title": "editContent",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-edit-content.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-get-brand-kit-colors.md",
+      "title": "getBrandKitColors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-get-brand-kit-colors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-get-brand-template-metadata.md",
+      "title": "getBrandTemplateMetadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-get-brand-template-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-get-current-page-metadata.md",
+      "title": "getCurrentPageMetadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-get-current-page-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-get-design-colors.md",
+      "title": "getDesignColors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-get-design-colors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-get-design-template-metadata.md",
+      "title": "getDesignTemplateMetadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-get-design-template-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-request-apply-public-template.md",
+      "title": "requestApplyPublicTemplate",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-request-apply-public-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-request-brand-templates.md",
+      "title": "requestBrandTemplates",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-request-brand-templates.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-request-data-field-matching.md",
+      "title": "requestDataFieldMatching",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-request-data-field-matching.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/design-set-data-field-label-visibility.md",
+      "title": "setDataFieldLabelVisibility",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/design-set-data-field-label-visibility.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/error-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/error-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/intents-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/intents-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/intents-content-prepare-content-publisher.md",
+      "title": "prepareContentPublisher",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/intents-content-prepare-content-publisher.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/intents-data-request-data-table.md",
+      "title": "requestDataTable",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/intents-data-request-data-table.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/platform-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/platform-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/platform-features-is-supported.md",
+      "title": "features.isSupported",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/platform-features-is-supported.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/platform-features-register-on-support-change.md",
+      "title": "features.registerOnSupportChange",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/platform-features-register-on-support-change.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/platform-notification-add-toast.md",
+      "title": "notification.addToast",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/platform-notification-add-toast.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/api/preview/user-changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/api/preview/user-changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-components/changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-components/changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-components/searchable-list-view.md",
+      "title": "SearchableListView",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-components/searchable-list-view.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-configuration.md",
+      "title": "Set up your app",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-configuration.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-configuration/canva-app-json.md",
+      "title": "canva-app.json",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-configuration/canva-app-json.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-configuration/collaboration.md",
+      "title": "App collaborators",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-configuration/collaboration.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-listing-guidelines.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-listing-guidelines.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-listing-guidelines/app-icon.md",
+      "title": "App icon",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-listing-guidelines/app-icon.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-listing-guidelines/app-urls.md",
+      "title": "App support and links",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-listing-guidelines/app-urls.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-listing-guidelines/behavior.md",
+      "title": "Listing behavior",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-listing-guidelines/behavior.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-listing-guidelines/featured-image.md",
+      "title": "Featured image",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-listing-guidelines/featured-image.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-listing-guidelines/written-content.md",
+      "title": "Written content",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-listing-guidelines/written-content.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-review-process.md",
+      "title": "App review process",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-review-process.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-templates.md",
+      "title": "Use a starter template",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-templates.md",
+        "https://www.canva.dev/docs/apps/app-templates/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-templates/content-publisher.md",
+      "title": "Content Publisher",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-templates/content-publisher.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-templates/data-connector.md",
+      "title": "Data Connector",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-templates/data-connector.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-templates/digital-asset-management.md",
+      "title": "Digital Asset Management",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-templates/digital-asset-management.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-templates/generative-ai.md",
+      "title": "Generative AI",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-templates/generative-ai.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-templates/hello-world.md",
+      "title": "Hello World",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-templates/hello-world.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-templates/multiple-listing-service.md",
+      "title": "Multiple Listing Service",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-templates/multiple-listing-service.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/colors.md",
+      "title": "Colors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/colors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/design-tokens.md",
+      "title": "Design tokens",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/design-tokens.md",
+        "https://www.canva.dev/docs/apps/app-ui-kit/design-tokens/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/quickstart.md",
+      "title": "Quickstart",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/quickstart.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/shadows.md",
+      "title": "Shadows",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/shadows.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/spacing.md",
+      "title": "Spacing",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/spacing.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/storybook.md",
+      "title": "Components",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-action-button--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-action-pill--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-avatar-avatar--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-avatar-avatargroup--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-audiocard--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-embedcard--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-horizontalcard--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-imagecard--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-typographycard--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-videocard--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-color-colorselector--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-color-swatch--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-checkbox--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-checkboxgroup--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-customizableselect--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-date-input--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-file-input--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-file-input-item--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-form-field--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-multilineinput--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-number-input--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-pillsinput--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-pillsinput-inputpill--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-radio-group--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-search-input-menu--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-segmented-control--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-select--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-slider--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-switch--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-text-input--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-time-input--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-icons-icons--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-informational-alert--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-informational-badge--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-accordion--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-box--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-carousel--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-column--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-columns--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-grid--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-masonry--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-rows--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-scrollable--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-link-link--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-link-linkbutton--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-preview-htmlpreview--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-loading-indicator--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-placeholder-placeholder--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-placeholder-text-placeholder--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-placeholder-title-placeholder--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-progress-bar--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-surface-flyout--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-surface-flyoutmenu--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-surface-surfaceheader--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-tabs-tabs--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-typography-text--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-typography-title--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-typography-truncatedtext--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-empty-state-empty-state--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-flyout-icon-button-with-flyout-menu--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-loading-loading-progress-bar--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-monetization-status-monetization-status--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-search-search-input-menu-with-flyout--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-small-buttons-small-buttons-in-input-fields--docs",
+        "https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/transitions.md",
+      "title": "Transitions",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/transitions.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/app-ui-kit/units.md",
+      "title": "Units",
+      "urls": [
+        "https://www.canva.dev/docs/apps/app-ui-kit/units.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/apps-inside-canva.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/apps-inside-canva.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/alternative-auth-experiences.md",
+      "title": "Alternative authentication experiences",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/alternative-auth-experiences.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/frictionless.md",
+      "title": "Frictionless authentication",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/frictionless.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/manual.md",
+      "title": "Manual authentication",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/manual.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/oauth-dynamic-domains.md",
+      "title": "Dynamic domains",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/oauth-dynamic-domains.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/oauth-multi-account.md",
+      "title": "Multi-account",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/oauth-multi-account.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/oauth-multi-provider.md",
+      "title": "Multi-provider",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/oauth-multi-provider.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/oauth-troubleshooting.md",
+      "title": "Troubleshooting",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/oauth-troubleshooting.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/authenticating-users/oauth.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/authenticating-users/oauth.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/build.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/build.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/bundling-apps.md",
+      "title": "Bundling apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/bundling-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/canva-app-scripts.md",
+      "title": "Canva App Scripts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/canva-app-scripts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/canva-app-scripts/configuration-reference.md",
+      "title": "Apps Scripts config reference",
+      "urls": [
+        "https://www.canva.dev/docs/apps/canva-app-scripts/configuration-reference.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/canva-cli.md",
+      "title": "Canva CLI",
+      "urls": [
+        "https://www.canva.dev/docs/apps/canva-cli.md",
+        "https://www.canva.dev/docs/apps/canva-cli/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/canva-cli/making-rest-api-requests.md",
+      "title": "Making REST API requests",
+      "urls": [
+        "https://www.canva.dev/docs/apps/canva-cli/making-rest-api-requests.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/canva-concepts.md",
+      "title": "Canva concepts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/canva-concepts/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/configuring-intents-permissions.md",
+      "title": "Permissions",
+      "urls": [
+        "https://www.canva.dev/docs/apps/configuring-intents-permissions.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/content-security-policy.md",
+      "title": "Content Security Policy",
+      "urls": [
+        "https://www.canva.dev/docs/apps/content-security-policy.md",
+        "https://www.canva.dev/docs/apps/content-security-policy/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/content.md",
+      "title": "Content",
+      "urls": [
+        "https://www.canva.dev/docs/apps/content.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-app-elements.md",
+      "title": "Creating app elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-app-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-audio-tracks.md",
+      "title": "Creating audio tracks",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-audio-tracks.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-image-overlays.md",
+      "title": "Creating image overlays",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-image-overlays.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-images.md",
+      "title": "Creating images",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-images.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-shapes.md",
+      "title": "Creating shapes",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-shapes.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-tables.md",
+      "title": "Creating tables",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-tables.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-text.md",
+      "title": "Creating text",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-text.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/creating-videos.md",
+      "title": "Creating videos",
+      "urls": [
+        "https://www.canva.dev/docs/apps/creating-videos.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/cross-origin-resource-sharing.md",
+      "title": "Cross-Origin Resource Sharing",
+      "urls": [
+        "https://www.canva.dev/docs/apps/cross-origin-resource-sharing.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/deep-linking.md",
+      "title": "Deep linking",
+      "urls": [
+        "https://www.canva.dev/docs/apps/deep-linking.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/deprecation-policy.md",
+      "title": "Deprecation policy",
+      "urls": [
+        "https://www.canva.dev/docs/apps/deprecation-policy.md",
+        "https://www.canva.dev/docs/apps/deprecation-policy/#canva-rest-apis"
+      ],
+      "sources": [
+        "admin",
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-editing.md",
+      "title": "Design Editing API",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-editing.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/accessibility.md",
+      "title": "Accessibility",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/accessibility.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/alerts.md",
+      "title": "Alerts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/alerts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/authentication.md",
+      "title": "Authentication",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/authentication.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/color-selection.md",
+      "title": "Color selection",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/color-selection.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/colors.md",
+      "title": "Colors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/colors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/content-publisher.md",
+      "title": "Content publisher",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/content-publisher.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/content-querying-api.md",
+      "title": "Content Querying API",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/content-querying-api.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/content.md",
+      "title": "Content",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/content.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/data-connector.md",
+      "title": "Data Connector",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/data-connector.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/design-editing-api.md",
+      "title": "Design Editing API",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/design-editing-api.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/drag-drop.md",
+      "title": "Drag and drop",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/drag-drop.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/empty-states.md",
+      "title": "Empty states",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/empty-states.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/errors.md",
+      "title": "Errors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/errors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/external-links.md",
+      "title": "External links",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/external-links.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/feature-support.md",
+      "title": "Feature support",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/feature-support.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/fonts.md",
+      "title": "Fonts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/fonts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/forms.md",
+      "title": "Forms",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/forms.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/icons.md",
+      "title": "Icons",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/icons.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/layout.md",
+      "title": "Layout",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/layout.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/loading.md",
+      "title": "Loading",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/loading.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/localization.md",
+      "title": "Localization",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/localization.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/mobile.md",
+      "title": "Mobile",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/mobile.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/monetization-status.md",
+      "title": "Monetization status",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/monetization-status.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/overlays.md",
+      "title": "Overlays",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/overlays.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/performance.md",
+      "title": "Performance",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/performance.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/premium-apps.md",
+      "title": "Premium apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/premium-apps.md",
+        "https://www.canva.dev/docs/apps/design-guidelines/premium-apps/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/rich-text.md",
+      "title": "Richtext",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/rich-text.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/search.md",
+      "title": "Search",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/search.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/selection.md",
+      "title": "Selection",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/selection.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/spacing.md",
+      "title": "Spacing",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/spacing.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/suspension.md",
+      "title": "Suspension",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/suspension.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/tables.md",
+      "title": "Tables",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/tables.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/toasts.md",
+      "title": "Toasts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/toasts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/typography.md",
+      "title": "Typography",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/typography.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/design-guidelines/written-content.md",
+      "title": "Written content",
+      "urls": [
+        "https://www.canva.dev/docs/apps/design-guidelines/written-content.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/designs.md",
+      "title": "Designs",
+      "urls": [
+        "https://www.canva.dev/docs/apps/designs.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/dev-mcp-server.md",
+      "title": "Dev MCP server",
+      "urls": [
+        "https://www.canva.dev/docs/apps/dev-mcp-server.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/developer-verification.md",
+      "title": "Developer verification",
+      "urls": [
+        "https://www.canva.dev/docs/apps/developer-verification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/elements.md",
+      "title": "Elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/embedding-rich-media.md",
+      "title": "Embedding rich media",
+      "urls": [
+        "https://www.canva.dev/docs/apps/embedding-rich-media.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/examples.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/examples.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/exporting-designs.md",
+      "title": "Exporting designs",
+      "urls": [
+        "https://www.canva.dev/docs/apps/exporting-designs.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/app-element-children.md",
+      "title": "App element children",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/app-element-children.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/app-embed-elements.md",
+      "title": "App embed elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/app-embed-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/app-image-elements.md",
+      "title": "App image elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/app-image-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/app-shape-elements.md",
+      "title": "App shape elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/app-shape-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/app-text-elements.md",
+      "title": "App text elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/app-text-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/app-video-elements.md",
+      "title": "App video elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/app-video-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/asset-upload.md",
+      "title": "Asset upload",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/asset-upload.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/authentication.md",
+      "title": "Authentication",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/authentication.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/autofill.md",
+      "title": "Autofill",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/autofill.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/brand-templates.md",
+      "title": "Brand templates",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/brand-templates.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/color.md",
+      "title": "Color",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/color.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/content-publisher-intent.md",
+      "title": "Content publisher intent",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/content-publisher-intent.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/data-connector-intent.md",
+      "title": "Data connector intent",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/data-connector-intent.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/design-audit.md",
+      "title": "Design audit",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/design-audit.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/design-colors.md",
+      "title": "Design colors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/design-colors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/design-editing.md",
+      "title": "Design editing",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/design-editing.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/design-metadata.md",
+      "title": "Design metadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/design-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/design-template-metadata.md",
+      "title": "Design template metadata",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/design-template-metadata.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/design-token.md",
+      "title": "Design token",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/design-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/digital-asset-management.md",
+      "title": "Digital asset management",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/digital-asset-management.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/drag-and-drop-audio.md",
+      "title": "Drag and drop audio",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-audio.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/drag-and-drop-embed.md",
+      "title": "Drag and drop embed",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-embed.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/drag-and-drop-image.md",
+      "title": "Drag and drop image",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-image.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/drag-and-drop-text.md",
+      "title": "Drag and drop text",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-text.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/drag-and-drop-video.md",
+      "title": "Drag and drop video",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-video.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/embed-elements.md",
+      "title": "Embed elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/embed-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/export.md",
+      "title": "Export",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/export.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/feature-support.md",
+      "title": "Feature support",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/feature-support.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/fetch.md",
+      "title": "Fetch",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/fetch.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/fonts.md",
+      "title": "Fonts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/fonts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/group-elements.md",
+      "title": "Group elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/group-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/i18n.md",
+      "title": "I18n",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/i18n.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/image-editing-overlay.md",
+      "title": "Image editing overlay",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/image-editing-overlay.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/image-elements.md",
+      "title": "Image elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/image-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/image-replacement.md",
+      "title": "Image replacement",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/image-replacement.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/implement-multiple-intents.md",
+      "title": "Multiple intents",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/implement-multiple-intents.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/intent-navigation.md",
+      "title": "Intent navigation",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/intent-navigation.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/masonry.md",
+      "title": "Masonry",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/masonry.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/multi-account-authentication.md",
+      "title": "Multi-account authentication",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/multi-account-authentication.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/multi-provider-authentication.md",
+      "title": "Multi-provider authentication",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/multi-provider-authentication.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/notification.md",
+      "title": "Notification",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/open-external-link.md",
+      "title": "Open external link",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/open-external-link.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/page-addition.md",
+      "title": "Page addition",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/page-addition.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/page-background.md",
+      "title": "Page background",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/page-background.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/positioning-elements.md",
+      "title": "Positioning elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/positioning-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/request-data-table.md",
+      "title": "Request data table",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/request-data-table.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/richtext-elements.md",
+      "title": "Richtext elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/richtext-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/richtext-replacement.md",
+      "title": "Richtext replacement",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/richtext-replacement.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/shape-elements-with-asset.md",
+      "title": "Shape elements with asset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/shape-elements-with-asset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/shape-elements.md",
+      "title": "Shape elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/shape-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/table-elements.md",
+      "title": "Table elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/table-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/text-elements.md",
+      "title": "Text elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/text-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/text-replacement.md",
+      "title": "Text replacement",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/text-replacement.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/text-translation.md",
+      "title": "Text translation",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/text-translation.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/ui-test.md",
+      "title": "UI test",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/ui-test.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/unit-test.md",
+      "title": "Unit test",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/unit-test.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/url-expander-intent.md",
+      "title": "URL expander intent",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/url-expander-intent.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/video-elements.md",
+      "title": "Video elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/video-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-examples/video-replacement.md",
+      "title": "Video replacement",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-examples/video-replacement.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/feature-support.md",
+      "title": "Adapt to feature context",
+      "urls": [
+        "https://www.canva.dev/docs/apps/feature-support.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/figma-resource.md",
+      "title": "Figma resource",
+      "urls": [
+        "https://www.canva.dev/docs/apps/figma-resource.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/fonts.md",
+      "title": "Using fonts",
+      "urls": [
+        "https://www.canva.dev/docs/apps/fonts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/getting-featured.md",
+      "title": "Getting featured",
+      "urls": [
+        "https://www.canva.dev/docs/apps/getting-featured.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/grouping-elements.md",
+      "title": "Grouping elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/grouping-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/handling-disabled-apps.md",
+      "title": "Disabled apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/handling-disabled-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/handling-errors.md",
+      "title": "Handling errors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/handling-errors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/index.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/integrating-canva.md",
+      "title": "How apps work in Canva",
+      "urls": [
+        "https://www.canva.dev/docs/apps/integrating-canva.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents-error-codes.md",
+      "title": "Error codes",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents-error-codes.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/content-publisher.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/content-publisher.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/content-publisher/implementation-guide.md",
+      "title": "Implementation guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/content-publisher/implementation-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/data-connector.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/data-connector.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/data-connector/implementation-guide.md",
+      "title": "Implementation guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/data-connector/implementation-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/design-editor.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/design-editor.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/design-editor/implementation-guide.md",
+      "title": "Implementation guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/design-editor/implementation-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/url-expander.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/url-expander.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/url-expander/implementation-guide.md",
+      "title": "Implementation guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/url-expander/implementation-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/intents/url-expander/url-pattern-validation-rules.md",
+      "title": "URL pattern validation rules",
+      "urls": [
+        "https://www.canva.dev/docs/apps/intents/url-expander/url-pattern-validation-rules.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/localization.md",
+      "title": "Localization overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/localization.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/localization/backend-responses.md",
+      "title": "Localize backend responses",
+      "urls": [
+        "https://www.canva.dev/docs/apps/localization/backend-responses.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/localization/bad-practices.md",
+      "title": "Bad practices",
+      "urls": [
+        "https://www.canva.dev/docs/apps/localization/bad-practices.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/localization/icu-syntax.md",
+      "title": "ICU syntax",
+      "urls": [
+        "https://www.canva.dev/docs/apps/localization/icu-syntax.md",
+        "https://www.canva.dev/docs/apps/localization/icu-syntax/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/localization/migrate-an-existing-app.md",
+      "title": "Migrate an existing app",
+      "urls": [
+        "https://www.canva.dev/docs/apps/localization/migrate-an-existing-app.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/localization/outside-react-components.md",
+      "title": "Localize outside React components",
+      "urls": [
+        "https://www.canva.dev/docs/apps/localization/outside-react-components.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/localization/recommended-workflow.md",
+      "title": "Recommended workflow",
+      "urls": [
+        "https://www.canva.dev/docs/apps/localization/recommended-workflow.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/managing-team-apps.md",
+      "title": "Managing private apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/managing-team-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp.md",
+      "title": "About Canva MCP",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/access.md",
+      "title": "Access and permissions",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/access.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/best-practices.md",
+      "title": "Best practices for Canva MCP",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/best-practices.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/canva-ai.md",
+      "title": "Connectors in Canva AI",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/canva-ai.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/prohibited-use.md",
+      "title": "Prohibited use",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/prohibited-use.md",
+        "https://www.canva.dev/docs/apps/mcp/prohibited-use/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools.md",
+      "title": "Rate limits",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools.md",
+        "https://www.canva.dev/docs/apps/mcp/tools/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/autofill-design.md",
+      "title": "autofill-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/autofill-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/cancel-editing-transaction.md",
+      "title": "cancel-editing-transaction",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/cancel-editing-transaction.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/comment-on-design.md",
+      "title": "comment-on-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/comment-on-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/commit-editing-transaction.md",
+      "title": "commit-editing-transaction",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/commit-editing-transaction.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/copy-design.md",
+      "title": "copy-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/copy-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/create-brand-template-draft.md",
+      "title": "create-brand-template-draft",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/create-brand-template-draft.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/create-design-from-brand-template.md",
+      "title": "create-design-from-brand-template",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/create-design-from-brand-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/create-design-from-candidate.md",
+      "title": "create-design-from-candidate",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/create-design-from-candidate.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/create-design.md",
+      "title": "create-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/create-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/create-folder.md",
+      "title": "create-folder",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/create-folder.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/create-upload-url.md",
+      "title": "create-upload-url",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/create-upload-url.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/export-design.md",
+      "title": "export-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/export-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/generate-design.md",
+      "title": "generate-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/generate-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/generate-image.md",
+      "title": "generate-image",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/generate-image.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-assets.md",
+      "title": "get-assets",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-assets.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-brand-template-dataset.md",
+      "title": "get-brand-template-dataset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-brand-template-dataset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-create-design-async-job.md",
+      "title": "get-create-design-async-job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-create-design-async-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-design-content.md",
+      "title": "get-design-content",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-design-content.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-design-dataset.md",
+      "title": "get-design-dataset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-design-dataset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-design-pages.md",
+      "title": "get-design-pages",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-design-pages.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-design.md",
+      "title": "get-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-export-formats.md",
+      "title": "get-export-formats",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-export-formats.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-generate-image-job.md",
+      "title": "get-generate-image-job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-generate-image-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/get-separate-image-layers-job.md",
+      "title": "get-separate-image-layers-job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/get-separate-image-layers-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/help.md",
+      "title": "help",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/help.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/import-design-from-url.md",
+      "title": "import-design-from-url",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/import-design-from-url.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/list-brand-kits.md",
+      "title": "list-brand-kits",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/list-brand-kits.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/list-comments.md",
+      "title": "list-comments",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/list-comments.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/list-folder-items.md",
+      "title": "list-folder-items",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/list-folder-items.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/list-replies.md",
+      "title": "list-replies",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/list-replies.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/merge-designs.md",
+      "title": "merge-designs",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/merge-designs.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/move-item-to-folder.md",
+      "title": "move-item-to-folder",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/move-item-to-folder.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/perform-editing-operations.md",
+      "title": "perform-editing-operations",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/perform-editing-operations.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/publish-brand-template.md",
+      "title": "publish-brand-template",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/publish-brand-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/remove-background.md",
+      "title": "remove-background",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/remove-background.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/reply-to-comment.md",
+      "title": "reply-to-comment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/reply-to-comment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/resize-design.md",
+      "title": "resize-design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/resize-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/resolve-shortlink.md",
+      "title": "resolve-shortlink",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/resolve-shortlink.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/search-brand-templates.md",
+      "title": "search-brand-templates",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/search-brand-templates.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/search-designs.md",
+      "title": "Tools",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/search-designs.md",
+        "https://www.canva.dev/docs/apps/mcp/tools/search-designs/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/search-folders.md",
+      "title": "search-folders",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/search-folders.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/separate-image-layers.md",
+      "title": "separate-image-layers",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/separate-image-layers.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/start-editing-transaction.md",
+      "title": "start-editing-transaction",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/start-editing-transaction.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/tools/upload-asset-from-url.md",
+      "title": "upload-asset-from-url",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/tools/upload-asset-from-url.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/troubleshooting.md",
+      "title": "Troubleshooting",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/troubleshooting.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/usage-policy.md",
+      "title": "Usage policy",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/usage-policy.md",
+        "https://www.canva.dev/docs/apps/mcp/usage-policy/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/verify-app.md",
+      "title": "Verify your Canva MCP app",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/verify-app.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/mcp/workflows/design-edit.md",
+      "title": "Design edit handoff",
+      "urls": [
+        "https://www.canva.dev/docs/apps/mcp/workflows/design-edit.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/monetization.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/monetization.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/payout-details.md",
+      "title": "Set up payout details",
+      "urls": [
+        "https://www.canva.dev/docs/apps/payout-details.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/platform-concepts-apps.md",
+      "title": "Apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/platform-concepts-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/platform-concepts-folders.md",
+      "title": "Folders",
+      "urls": [
+        "https://www.canva.dev/docs/apps/platform-concepts-folders.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/platform-concepts-teams-groups-and-users.md",
+      "title": "Teams, groups, and users",
+      "urls": [
+        "https://www.canva.dev/docs/apps/platform-concepts-teams-groups-and-users.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/positioning-elements.md",
+      "title": "Positioning elements",
+      "urls": [
+        "https://www.canva.dev/docs/apps/positioning-elements.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/premium-apps.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/premium-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/premium-apps/implementing-monetization.md",
+      "title": "Implementing monetization",
+      "urls": [
+        "https://www.canva.dev/docs/apps/premium-apps/implementing-monetization.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/prerequisites.md",
+      "title": "Prerequisites",
+      "urls": [
+        "https://www.canva.dev/docs/apps/prerequisites.md",
+        "https://www.canva.dev/docs/apps/prerequisites/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/previewing-apps.md",
+      "title": "Previewing apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/previewing-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/querying.md",
+      "title": "Content Querying API",
+      "urls": [
+        "https://www.canva.dev/docs/apps/querying.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/quickstart.md",
+      "title": "Quickstart",
+      "urls": [
+        "https://www.canva.dev/docs/apps/quickstart.md",
+        "https://www.canva.dev/docs/apps/quickstart/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/reference-apps.md",
+      "title": "Explore reference apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/reference-apps.md",
+        "https://www.canva.dev/docs/apps/reference-apps/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/reference-apps/nourish.md",
+      "title": "Nourish",
+      "urls": [
+        "https://www.canva.dev/docs/apps/reference-apps/nourish.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/reference-apps/realty-commercial.md",
+      "title": "Realty Commercial",
+      "urls": [
+        "https://www.canva.dev/docs/apps/reference-apps/realty-commercial.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/reference.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/reference.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/releasing-apps.md",
+      "title": "Releasing apps",
+      "urls": [
+        "https://www.canva.dev/docs/apps/releasing-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis.md",
+      "title": "About Canva's REST APIs",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/authentication.md",
+      "title": "Authentication",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/authentication.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/autofill-guide.md",
+      "title": "Autofill designs with data",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/autofill-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/brand-guidelines.md",
+      "title": "Brand guidelines",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/brand-guidelines.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/capabilities.md",
+      "title": "Capabilities",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/capabilities.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/changelog.md",
+      "title": "Changelog",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/changelog.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/credit-rates.md",
+      "title": "Credit rates",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/credit-rates.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/error-responses.md",
+      "title": "Error responses",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/error-responses.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/experience-guidelines.md",
+      "title": "User experience guidelines",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/experience-guidelines.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/generate-images-with-craft.md",
+      "title": "Generate images with CRAFT",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/generate-images-with-craft.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/manage-versions.md",
+      "title": "Canva REST API versioning",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/manage-versions.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/recommended-practices.md",
+      "title": "Recommended practices",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/recommended-practices.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/analytics.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/analytics.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/analytics/get-design-analytics-links.md",
+      "title": "Get design analytics links",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-links.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/analytics/get-design-analytics-page-views.md",
+      "title": "Get design analytics page views",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-page-views.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/analytics/get-design-analytics-viewers.md",
+      "title": "Get design analytics viewers",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-viewers.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/analytics/get-design-analytics-views-over-time.md",
+      "title": "Get design analytics views over time",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-views-over-time.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/analytics/get-design-analytics.md",
+      "title": "Get design analytics",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets/create-asset-upload-job.md",
+      "title": "Create asset upload job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets/create-asset-upload-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets/create-url-asset-upload-job.md",
+      "title": "Create asset upload job via URL",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets/create-url-asset-upload-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets/delete-asset.md",
+      "title": "Delete asset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets/delete-asset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets/get-asset-upload-job.md",
+      "title": "Get asset upload job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets/get-asset-upload-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets/get-asset.md",
+      "title": "Get asset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets/get-asset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets/get-url-asset-upload-job.md",
+      "title": "Get asset upload job via URL",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets/get-url-asset-upload-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/assets/update-asset.md",
+      "title": "Update asset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/assets/update-asset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/authentication.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/authentication.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/authentication/generate-access-token.md",
+      "title": "Generate access token",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/authentication/generate-access-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/authentication/introspect-access-token.md",
+      "title": "Introspect access token",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/authentication/introspect-access-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/authentication/revoke-token.md",
+      "title": "Revoke token",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/authentication/revoke-token.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/autofills.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/autofills.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/autofills/create-design-autofill-job.md",
+      "title": "Create design autofill job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/autofills/create-design-autofill-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/autofills/get-design-autofill-job.md",
+      "title": "Get design autofill job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/autofills/get-design-autofill-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/brand-templates.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/brand-templates/get-brand-template-dataset.md",
+      "title": "Get brand template dataset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/get-brand-template-dataset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/brand-templates/get-brand-template.md",
+      "title": "Get brand template",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/get-brand-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/brand-templates/list-brand-templates.md",
+      "title": "List brand templates",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/list-brand-templates.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/brand-templates/publish-brand-template.md",
+      "title": "Publish brand template",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/publish-brand-template.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/comments.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/comments.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/comments/create-comment.md",
+      "title": "Create comment (deprecated)",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/comments/create-comment.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/comments/create-reply.md",
+      "title": "Create reply",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/comments/create-reply.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/comments/create-thread.md",
+      "title": "Create thread",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/comments/create-thread.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/comments/get-reply.md",
+      "title": "Get reply",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/comments/get-reply.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/comments/get-thread.md",
+      "title": "Get thread",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/comments/get-thread.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/comments/list-replies.md",
+      "title": "List replies",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/comments/list-replies.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/design-imports.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/design-imports.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/design-imports/create-design-import-job.md",
+      "title": "Create design import job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/create-design-import-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/design-imports/create-image-to-design-import-job.md",
+      "title": "Create image-to-design import job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/create-image-to-design-import-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/design-imports/create-url-import-job.md",
+      "title": "Create URL import job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/create-url-import-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/design-imports/get-design-import-job.md",
+      "title": "Get design import job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/get-design-import-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/design-imports/get-image-to-design-import-job.md",
+      "title": "Get image-to-design import job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/get-image-to-design-import-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/design-imports/get-url-import-job.md",
+      "title": "Get URL import job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/get-url-import-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/designs.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/designs.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/designs/create-design.md",
+      "title": "Create design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/designs/create-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/designs/get-design-dataset.md",
+      "title": "Get design dataset",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design-dataset.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/designs/get-design-export-formats.md",
+      "title": "Get design export formats",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design-export-formats.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/designs/get-design-pages.md",
+      "title": "Get design pages",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design-pages.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/designs/get-design.md",
+      "title": "Get design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/designs/list-designs.md",
+      "title": "List designs",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/designs/list-designs.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/exports.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/exports.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/exports/create-design-export-job.md",
+      "title": "Create design export job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/exports/create-design-export-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/exports/get-design-export-job.md",
+      "title": "Get design export job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/exports/get-design-export-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/folders.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/folders.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/folders/create-folder.md",
+      "title": "Create folder",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/folders/create-folder.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/folders/delete-folder.md",
+      "title": "Delete folder",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/folders/delete-folder.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/folders/get-folder.md",
+      "title": "Get folder",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/folders/get-folder.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/folders/list-folder-items.md",
+      "title": "List folder items",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/folders/list-folder-items.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/folders/move-folder-item.md",
+      "title": "Move folder item",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/folders/move-folder-item.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/folders/update-folder.md",
+      "title": "Update folder",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/folders/update-folder.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/generations.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/generations.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/generations/create-design-generation-job.md",
+      "title": "Create design generation job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/generations/create-design-generation-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/generations/create-image-generation-job.md",
+      "title": "Create image generation job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/generations/create-image-generation-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/generations/get-design-generation-job.md",
+      "title": "Get design generation job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/generations/get-design-generation-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/generations/get-image-generation-job.md",
+      "title": "Get image generation job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/generations/get-image-generation-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/image-transformations.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/image-transformations.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/image-transformations/create-image-transformation-job.md",
+      "title": "Create image transformation job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/image-transformations/create-image-transformation-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/image-transformations/get-image-transformation-job.md",
+      "title": "Get image transformation job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/image-transformations/get-image-transformation-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/merges.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/merges.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/merges/create-design-merge-job.md",
+      "title": "Create design merge job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/merges/create-design-merge-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/merges/get-design-merge-job.md",
+      "title": "Get design merge job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/merges/get-design-merge-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/resizes.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/resizes.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/resizes/create-design-resize-job.md",
+      "title": "Create design resize job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/resizes/create-design-resize-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/resizes/get-design-resize-job.md",
+      "title": "Get design resize job",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/resizes/get-design-resize-job.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/users.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/users.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/users/get-user-capabilities.md",
+      "title": "Get user capabilities",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/users/get-user-capabilities.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/users/users-me.md",
+      "title": "Get current user",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/users/users-me.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/users/users-profile.md",
+      "title": "Get current user profile",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/users/users-profile.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/reference/webhooks/keys.md",
+      "title": "Keys",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/reference/webhooks/keys.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/requests-responses.md",
+      "title": "API requests and responses",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/requests-responses.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/return-navigation-guide.md",
+      "title": "Return users to your platform",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/return-navigation-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/scopes.md",
+      "title": "Scopes",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/scopes.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/security-recommendations.md",
+      "title": "Security recommendations",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/security-recommendations.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/shared-responsibility.md",
+      "title": "Shared responsibility model",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/shared-responsibility.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/ui-guidelines.md",
+      "title": "UI guidelines",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/ui-guidelines.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/versions.md",
+      "title": "API versions",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/versions.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/comment-notification.md",
+      "title": "Comment",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/comment-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/design-access-requested-notification.md",
+      "title": "Design access requested",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/design-access-requested-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/design-approval-requested-notification.md",
+      "title": "Design approval requested",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/design-approval-requested-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/design-approval-response-notification.md",
+      "title": "Design approval response",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/design-approval-response-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/design-approval-reviewer-invalidated-notification.md",
+      "title": "Design approval reviewer invalidated",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/design-approval-reviewer-invalidated-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/folder-access-requested-notification.md",
+      "title": "Folder access requested",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/folder-access-requested-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/share-design-notification.md",
+      "title": "Share design",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/share-design-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/share-folder-notification.md",
+      "title": "Share folder",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/share-folder-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/suggestion-notification.md",
+      "title": "Suggestion",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/suggestion-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/rest-apis/webhooks/team-invite-notification.md",
+      "title": "Team invite",
+      "urls": [
+        "https://www.canva.dev/docs/apps/rest-apis/webhooks/team-invite-notification.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/restricted-uses.md",
+      "title": "Restricted uses",
+      "urls": [
+        "https://www.canva.dev/docs/apps/restricted-uses.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/security-guidelines.md",
+      "title": "Security guidelines",
+      "urls": [
+        "https://www.canva.dev/docs/apps/security-guidelines.md",
+        "https://www.canva.dev/docs/apps/security-guidelines/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/selection.md",
+      "title": "Selection API",
+      "urls": [
+        "https://www.canva.dev/docs/apps/selection.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/setting-up-starter-kit.md",
+      "title": "Starter kit",
+      "urls": [
+        "https://www.canva.dev/docs/apps/setting-up-starter-kit.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/shared-responsibility-intents.md",
+      "title": "Shared responsibility model",
+      "urls": [
+        "https://www.canva.dev/docs/apps/shared-responsibility-intents.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/submission-checklist.md",
+      "title": "Submission checklist",
+      "urls": [
+        "https://www.canva.dev/docs/apps/submission-checklist.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/submitting-apps.md",
+      "title": "Submit your app",
+      "urls": [
+        "https://www.canva.dev/docs/apps/submitting-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/supporting-drag-drop.md",
+      "title": "Supporting drag and drop",
+      "urls": [
+        "https://www.canva.dev/docs/apps/supporting-drag-drop.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/suspension.md",
+      "title": "Suspension",
+      "urls": [
+        "https://www.canva.dev/docs/apps/suspension.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/test-harness.md",
+      "title": "Test harness",
+      "urls": [
+        "https://www.canva.dev/docs/apps/test-harness.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/testing.md",
+      "title": "Unit testing",
+      "urls": [
+        "https://www.canva.dev/docs/apps/testing.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/upgrades-and-migrations.md",
+      "title": "Overview",
+      "urls": [
+        "https://www.canva.dev/docs/apps/upgrades-and-migrations.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/upgrades-and-migrations/app-scripts-migration-guide.md",
+      "title": "App Scripts Upgrade guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/upgrades-and-migrations/app-scripts-migration-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/upgrades-and-migrations/app-ui-kit-v5-migration.md",
+      "title": "App UI Kit v5 Upgrade guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/upgrades-and-migrations/app-ui-kit-v5-migration.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/upgrades-and-migrations/design-editor-migration-guide.md",
+      "title": "Design Editor Intent Upgrade guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/upgrades-and-migrations/design-editor-migration-guide.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/upgrades-and-migrations/v2-migration-faq.md",
+      "title": "Apps SDK v2 Upgrade FAQ",
+      "urls": [
+        "https://www.canva.dev/docs/apps/upgrades-and-migrations/v2-migration-faq.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/upgrades-and-migrations/v2-migration-guide.md",
+      "title": "Apps SDK v2 Upgrade guide",
+      "urls": [
+        "https://www.canva.dev/docs/apps/upgrades-and-migrations/v2-migration-guide.md",
+        "https://www.canva.dev/docs/apps/upgrades-and-migrations/v2-migration-guide/"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/uploading-assets.md",
+      "title": "Assets",
+      "urls": [
+        "https://www.canva.dev/docs/apps/uploading-assets.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/using-backend.md",
+      "title": "Using a backend",
+      "urls": [
+        "https://www.canva.dev/docs/apps/using-backend.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/using-color-selectors.md",
+      "title": "Using color selectors",
+      "urls": [
+        "https://www.canva.dev/docs/apps/using-color-selectors.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/using-design-ids.md",
+      "title": "Using design IDs",
+      "urls": [
+        "https://www.canva.dev/docs/apps/using-design-ids.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/verifying-http-requests.md",
+      "title": "HTTP request verification",
+      "urls": [
+        "https://www.canva.dev/docs/apps/verifying-http-requests.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/verifying-jwts.md",
+      "title": "JSON Web Tokens",
+      "urls": [
+        "https://www.canva.dev/docs/apps/verifying-jwts.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/apps/versioning-apps.md",
+      "title": "App versioning",
+      "urls": [
+        "https://www.canva.dev/docs/apps/versioning-apps.md"
+      ],
+      "sources": [
+        "apps"
+      ],
+      "status": "created-placeholder"
+    },
+    {
+      "path": "docs/canva/scim/index.md",
+      "title": "Canva SCIM API",
+      "urls": [
+        "https://www.canva.dev/docs/scim/"
+      ],
+      "sources": [
+        "admin"
+      ],
+      "status": "created-placeholder"
+    }
+  ],
+  "referenced_non_document_urls": [
+    {
+      "url": "https://api.canva.com/admin/v1/`",
+      "source": "admin"
+    },
+    {
+      "url": "https://canva-external.atlassian.net/servicedesk/customer/portal/2/group/2",
+      "source": "apps"
+    },
+    {
+      "url": "https://community.canva.dev/latest",
+      "source": "apps"
+    },
+    {
+      "url": "https://github.com/OpenAPITools/openapi-generator",
+      "source": "admin"
+    },
+    {
+      "url": "https://playroom.canva.dev/app-ui-kit/",
+      "source": "apps"
+    },
+    {
+      "url": "https://www.canva.com/developers/premium-apps-program/",
+      "source": "apps"
+    },
+    {
+      "url": "https://www.canva.dev/sources/admin/api/latest/api.yml",
+      "source": "admin"
+    }
+  ]
+}
