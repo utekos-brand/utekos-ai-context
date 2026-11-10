@@ -35,7 +35,7 @@ jobs:
           package-manager-cache: false
 
       - name: Run offline unit tests
-        run: node --test tests/sync-canva-docs-index.test.mjs
+        run: node --test tests/*.test.mjs
 
       - name: Synchronize URL index and prepare PR branch
         id: sync
