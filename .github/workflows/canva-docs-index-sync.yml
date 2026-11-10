@@ -1,6 +1,11 @@
 name: Canva documentation index sync
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/canva-docs-index-sync.yml'
+      - 'scripts/sync-canva-docs-index.mjs'
   schedule:
     - cron: '17 6 * * *'
   workflow_dispatch:
