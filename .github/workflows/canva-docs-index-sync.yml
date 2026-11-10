@@ -1,0 +1,66 @@
+name: Canva documentation index sync
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: canva-documentation-index-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+
+      - name: Run offline unit tests
+        run: node --test tests/sync-canva-docs-index.test.mjs
+
+      - name: Synchronize URL index and prepare PR branch
+        id: sync
+        shell: bash
+        run: |
+          set -euo pipefail
+          git checkout -B automation/canva-docs-index origin/main
+          node scripts/sync-canva-docs-index.mjs
+          git add -- docs/canva
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No index changes detected."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs(canva): update documentation URL index"
+          git push --force-with-lease origin HEAD:refs/heads/automation/canva-docs-index
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or reuse review pull request
+        if: steps.sync.outputs.changed == 'true'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          existing="$(gh pr list --state open --base main --head automation/canva-docs-index --json number --jq '.[0].number // empty')"
+          if [[ -n "$existing" ]]; then
+            echo "Updated existing PR #$existing"
+          else
+            gh pr create --base main --head automation/canva-docs-index --title "docs(canva): synchronize official documentation URLs" --body "Automated index-only update from the official Canva Apps and Admin llms.txt indexes. New paths receive source-link placeholders, while existing files are preserved. Removed URLs are reflected in the manifest without deleting files. **No full documentation pages are mirrored.** Review before merging."
+          fi
