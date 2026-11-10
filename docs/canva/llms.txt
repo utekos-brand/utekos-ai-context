@@ -1,0 +1,1062 @@
+# Canva Developers SDK documentation
+
+How to develop apps with the Canva Developers SDK.
+
+The Canva Developers SDK is one product for building with Canva. Everything you build with it is an app, and each app is built for one or more of three surfaces: inside Canva, on your own platform, or in an AI assistant.
+
+This documentation explains everything you need to know about creating apps, on any surface.
+
+## Choose a surface
+
+## First steps
+
+* To check what you need before you start, see [Prerequisites](https://www.canva.dev/docs/apps/prerequisites/).
+* To start making an app, see [Quickstart](https://www.canva.dev/docs/apps/quickstart/).
+* To learn the concepts that the APIs are built around, see [Canva concepts](https://www.canva.dev/docs/apps/canva-concepts/).
+* If you have any questions, [create a support ticket](https://canva-external.atlassian.net/servicedesk/customer/portal/2/group/2).
+
+## Previous product names
+
+The Developers SDK brings together three products that used to be documented separately:
+
+| Previously                                                 | Now                                                                                                                     |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Apps SDK                                                   | The **Apps inside Canva** surface                                                                                       |
+| Connect APIs                                               | The **Canva REST APIs**, which you use to build for **Canva for your platform**                                         |
+| Canva Model Context Protocol (MCP), used as a product name | The **Canva for AI assistants** surface, which uses the MCP to integrate Canva's design capabilities into AI assistants |
+
+Released versions keep the names they shipped under, so pages such as [Apps SDK v2 Upgrade guide](https://www.canva.dev/docs/apps/upgrades-and-migrations/v2-migration-guide/) still refer to the Apps SDK.
+
+## Developer community
+
+If you want to chat with other developers, including Canva engineers, and keep up to date with the latest platform announcements, check out our developer community at [community.canva.dev](https://community.canva.dev/latest).
+
+
+## Get started
+
+- [Overview](https://www.canva.dev/docs/apps.md): How to develop apps with the Canva Developers SDK.
+
+### Build your first app
+
+- [Prerequisites](https://www.canva.dev/docs/apps/prerequisites.md): The accounts, tools, and skills you need to build with the Canva Developers SDK.
+- [Quickstart](https://www.canva.dev/docs/apps/quickstart.md): Get an app up and running in a matter of minutes, on any Canva Developers SDK surface.
+
+### Starter resources
+
+- [Starter kit](https://www.canva.dev/docs/apps/setting-up-starter-kit.md): The starter kits for building with the Canva Developers SDK.
+- [Use a starter template](/docs/apps/app-templates/)
+- [Explore reference apps](/docs/apps/reference-apps/)
+
+### Learn
+
+
+#### Platform concepts
+
+- [Apps](https://www.canva.dev/docs/apps/platform-concepts-apps.md): An introduction to apps in the Canva Developers SDK.
+- [Designs](https://www.canva.dev/docs/apps/designs.md): An introduction to designs in the Canva Developers SDK.
+- [Elements](https://www.canva.dev/docs/apps/elements.md): An introduction to elements in the Canva Developers SDK.
+- [Content](https://www.canva.dev/docs/apps/content.md): An introduction to content in the Canva Developers SDK.
+- [Assets](https://www.canva.dev/docs/apps/uploading-assets.md): How apps can upload, download, and interact with assets.
+- [Folders](https://www.canva.dev/docs/apps/platform-concepts-folders.md): An introduction to folders in the Canva Developers SDK.
+- [Teams, groups, and users](https://www.canva.dev/docs/apps/platform-concepts-teams-groups-and-users.md): An introduction to how Canva organizes teams, groups, and users.
+- [Suspension](https://www.canva.dev/docs/apps/suspension.md): An introduction to suspension for apps inside Canva.
+- [Recommended practices](https://www.canva.dev/docs/apps/rest-apis/recommended-practices.md): Learn how to make a meaningful app.
+
+## Build
+
+- [Overview](https://www.canva.dev/docs/apps/build.md): An overview of the surfaces you can build for with the Canva Developers SDK.
+
+### Build with Canva
+
+
+#### Apps inside Canva
+
+- [Overview](https://www.canva.dev/docs/apps/apps-inside-canva.md): How to build apps that run in the Canva editor with the Canva Developers SDK.
+- [How apps work in Canva](https://www.canva.dev/docs/apps/integrating-canva.md): How apps hook into the Canva editor with the Canva Developers SDK.
+- [Set up your app](https://www.canva.dev/docs/apps/app-configuration.md): Manage the settings for your Canva app.
+
+##### Fundamentals
+
+- [Previewing apps](https://www.canva.dev/docs/apps/previewing-apps.md): How to preview apps.
+- [Using a backend](https://www.canva.dev/docs/apps/using-backend.md): How to integrate an app with a backend.
+- [Bundling apps](https://www.canva.dev/docs/apps/bundling-apps.md): How to generate a JavaScript bundle for an app.
+- [Adapt to feature context](https://www.canva.dev/docs/apps/feature-support.md): How apps can adapt to their current context.
+
+##### App intents
+
+- [Overview](https://www.canva.dev/docs/apps/intents.md): Apps inside Canva are based on intents to enable easier integration and user discovery.
+
+###### Design Editor
+
+- [Overview](https://www.canva.dev/docs/apps/intents/design-editor.md): Create apps that add design tools to Canva.
+- [Implementation guide](https://www.canva.dev/docs/apps/intents/design-editor/implementation-guide.md): Create specialized editing tools within Canva.
+
+###### Creating elements
+
+- [Creating app elements](https://www.canva.dev/docs/apps/creating-app-elements.md): How to create app elements.
+- [Creating audio tracks](https://www.canva.dev/docs/apps/creating-audio-tracks.md): How to add audio tracks to a user's design.
+- [Creating images](https://www.canva.dev/docs/apps/creating-images.md): How to add images to a user's design.
+- [Creating image overlays](https://www.canva.dev/docs/apps/creating-image-overlays.md): Using the Canva Developers SDK to support in-place editing for images.
+- [Creating shapes](https://www.canva.dev/docs/apps/creating-shapes.md): How to add shapes to a user's design.
+- [Creating tables](https://www.canva.dev/docs/apps/creating-tables.md): How to add tables to a user's design.
+- [Creating text](https://www.canva.dev/docs/apps/creating-text.md): How to add text to a user's design.
+- [Creating videos](https://www.canva.dev/docs/apps/creating-videos.md): How to add videos to a user's design.
+- [Embedding rich media](https://www.canva.dev/docs/apps/embedding-rich-media.md): How to embed rich media in a user's design.
+
+###### Working with elements
+
+- [Grouping elements](https://www.canva.dev/docs/apps/grouping-elements.md): How to organize elements into groups.
+- [Positioning elements](https://www.canva.dev/docs/apps/positioning-elements.md): How to arrange elements in a user's design.
+- [Supporting drag and drop](https://www.canva.dev/docs/apps/supporting-drag-drop.md): How apps can support drag and drop.
+- [Using fonts](https://www.canva.dev/docs/apps/fonts.md): How to use fonts when creating or updating text.
+- [Using color selectors](https://www.canva.dev/docs/apps/using-color-selectors.md): How to prompt users to select a color.
+
+###### Interacting with designs
+
+- [Content Querying API](https://www.canva.dev/docs/apps/querying.md): Reading and updating content in a user's design.
+- [Design Editing API](https://www.canva.dev/docs/apps/design-editing.md): How to programmatically read and edit designs.
+- [Selection API](https://www.canva.dev/docs/apps/selection.md): Read, transform, and write the user's current selection.
+- [Using design IDs](https://www.canva.dev/docs/apps/using-design-ids.md): How to store and retrieve data against a user's design.
+- [Exporting designs](https://www.canva.dev/docs/apps/exporting-designs.md): How to export a design from Canva.
+
+###### Data Connector
+
+- [Overview](https://www.canva.dev/docs/apps/intents/data-connector.md): Create apps that import data from external sources.
+- [Implementation guide](https://www.canva.dev/docs/apps/intents/data-connector/implementation-guide.md): Import data from external sources into Canva.
+
+###### Content Publisher
+
+- [Overview](https://www.canva.dev/docs/apps/intents/content-publisher.md): Integrate Canva with third-party content publishing platforms.
+- [Implementation guide](https://www.canva.dev/docs/apps/intents/content-publisher/implementation-guide.md): Publish Canva designs directly to external platforms.
+
+###### URL Expander
+
+- [Overview](https://www.canva.dev/docs/apps/intents/url-expander.md): Automatically import content from external URLs into Canva AI.
+- [Implementation guide](https://www.canva.dev/docs/apps/intents/url-expander/implementation-guide.md): Import content from external URLs into Canva AI.
+- [URL pattern validation rules](https://www.canva.dev/docs/apps/intents/url-expander/url-pattern-validation-rules.md): Rules for defining URL patterns that your app can expand.
+
+##### Development guides
+
+
+###### Authenticate users
+
+- [Overview](https://www.canva.dev/docs/apps/authenticating-users.md): How to authenticate Canva users.
+- [Frictionless authentication](https://www.canva.dev/docs/apps/authenticating-users/frictionless.md): Seamlessly authenticate users.
+
+###### OAuth integration
+
+- [Overview](https://www.canva.dev/docs/apps/authenticating-users/oauth.md): Let your users access resources in an external platform.
+- [Dynamic domains](https://www.canva.dev/docs/apps/authenticating-users/oauth-dynamic-domains.md): Configure OAuth providers with wildcard subdomains
+- [Multi-account](https://www.canva.dev/docs/apps/authenticating-users/oauth-multi-account.md): Allow users to connect and manage multiple OAuth accounts from the same provider.
+- [Multi-provider](https://www.canva.dev/docs/apps/authenticating-users/oauth-multi-provider.md): Allow users to connect to multiple OAuth providers simultaneously.
+- [Troubleshooting](https://www.canva.dev/docs/apps/authenticating-users/oauth-troubleshooting.md): Reference for OAuth error codes.
+- [Manual authentication](https://www.canva.dev/docs/apps/authenticating-users/manual.md): How to set up authentication with a third-party platform.
+- [Alternative authentication experiences](https://www.canva.dev/docs/apps/authenticating-users/alternative-auth-experiences.md): Alternatives for non-standard authentication scenarios.
+- [Handling errors](https://www.canva.dev/docs/apps/handling-errors.md): How to handle errors thrown by the Canva Developers SDK.
+
+###### Prepare for localization
+
+- [Localization overview](https://www.canva.dev/docs/apps/localization.md): Canva can translate your app into other languages.
+- [Recommended workflow](https://www.canva.dev/docs/apps/localization/recommended-workflow.md): Canva can translate your app into other languages.
+- [Migrate an existing app](https://www.canva.dev/docs/apps/localization/migrate-an-existing-app.md): How to add localization support to an existing app.
+- [Localize backend responses](https://www.canva.dev/docs/apps/localization/backend-responses.md): Handle translations when your app's content depends on API responses.
+- [Localize outside React components](https://www.canva.dev/docs/apps/localization/outside-react-components.md): Use Canva-provided translations outside React components with the initIntl function.
+- [ICU syntax](/docs/apps/localization/icu-syntax/)
+- [Bad practices](https://www.canva.dev/docs/apps/localization/bad-practices.md): Common localization mistakes to avoid and how to fix them.
+
+###### Securing your app
+
+- [Cross-Origin Resource Sharing](https://www.canva.dev/docs/apps/cross-origin-resource-sharing.md): How to troubleshoot and fix CORS errors.
+- [HTTP request verification](https://www.canva.dev/docs/apps/verifying-http-requests.md): How to verify the authenticity of HTTP requests.
+- [JSON Web Tokens](https://www.canva.dev/docs/apps/verifying-jwts.md): How to verify a JSON Web Token (JWT).
+- [Security guidelines](/docs/apps/security-guidelines/)
+- [Content Security Policy](/docs/apps/content-security-policy/)
+
+###### Test your app
+
+- [Unit testing](https://www.canva.dev/docs/apps/testing.md): How to unit test apps with Jest and React Testing Library.
+- [Test harness](https://www.canva.dev/docs/apps/test-harness.md): A step by step guide setting up the Canva Developers SDK test harness.
+
+##### Designing your app
+
+- [Overview](https://www.canva.dev/docs/apps/design-guidelines.md): Learn how to use design foundations to create components.
+
+###### Design foundations
+
+- [Layout](https://www.canva.dev/docs/apps/design-guidelines/layout.md): Ideas and examples for creating composable and consistent layouts.
+- [Colors](https://www.canva.dev/docs/apps/design-guidelines/colors.md): How to use functional colors in your app.
+- [Content](https://www.canva.dev/docs/apps/design-guidelines/content.md): Guidelines for importing and using content in Canva.
+- [Written content](https://www.canva.dev/docs/apps/design-guidelines/written-content.md): Guidelines for great written content.
+- [Typography](https://www.canva.dev/docs/apps/design-guidelines/typography.md): Learn how to use our Canva Sans font family in your app.
+- [Icons](https://www.canva.dev/docs/apps/design-guidelines/icons.md): Learn how to use icons throughout your app.
+- [Spacing](https://www.canva.dev/docs/apps/design-guidelines/spacing.md): Consistent spacing helps arrange the content of a screen in a clean and predictable way.
+- [Accessibility](https://www.canva.dev/docs/apps/design-guidelines/accessibility.md): Guidelines for making your app accessible.
+- [Localization](https://www.canva.dev/docs/apps/design-guidelines/localization.md): Design guidelines for localizing your app.
+
+###### Design patterns
+
+- [Alerts](https://www.canva.dev/docs/apps/design-guidelines/alerts.md): Guidelines for displaying alerts and messaging.
+- [Authentication](https://www.canva.dev/docs/apps/design-guidelines/authentication.md): Guidelines for authenticating users.
+- [Color selection](https://www.canva.dev/docs/apps/design-guidelines/color-selection.md): How to use the color selector flyout.
+- [Content publisher](https://www.canva.dev/docs/apps/design-guidelines/content-publisher.md): Guidelines for designing publish apps.
+- [Content Querying API](https://www.canva.dev/docs/apps/design-guidelines/content-querying-api.md): Guidelines for the text querying API
+- [Data Connector](https://www.canva.dev/docs/apps/design-guidelines/data-connector.md): Guidelines for designing Data Connectors.
+- [Design Editing API](https://www.canva.dev/docs/apps/design-guidelines/design-editing-api.md): The best practices for using design editing on a page.
+- [Drag and drop](https://www.canva.dev/docs/apps/design-guidelines/drag-drop.md): Guidelines for using the Drag and Drop capability.
+- [Empty states](https://www.canva.dev/docs/apps/design-guidelines/empty-states.md): Guidelines for designing a simple and clean empty state.
+- [Errors](https://www.canva.dev/docs/apps/design-guidelines/errors.md): Guidelines for displaying errors and messaging.
+- [External links](https://www.canva.dev/docs/apps/design-guidelines/external-links.md): The best practices for linking to external web pages.
+- [Feature support](https://www.canva.dev/docs/apps/design-guidelines/feature-support.md): Guidelines for handling unsupported features.
+- [Fonts](https://www.canva.dev/docs/apps/design-guidelines/fonts.md): Guidelines for prompting users to select a font.
+- [Forms](https://www.canva.dev/docs/apps/design-guidelines/forms.md): Guidelines for creating user-friendly forms.
+- [Loading](https://www.canva.dev/docs/apps/design-guidelines/loading.md): Guidelines for using progress and loading indicators.
+- [Mobile](https://www.canva.dev/docs/apps/design-guidelines/mobile.md): Guidelines for designing apps for mobile devices.
+- [Monetization status](https://www.canva.dev/docs/apps/design-guidelines/monetization-status.md): Guidelines for communicating monetization status and management pathways in your app.
+- [Overlays](https://www.canva.dev/docs/apps/design-guidelines/overlays.md): Guidelines for interactive image editing overlays.
+- [Performance](https://www.canva.dev/docs/apps/design-guidelines/performance.md): Guidelines for creating a fast-loading app.
+- [Premium apps](https://www.canva.dev/docs/apps/design-guidelines/premium-apps.md): Guidelines for designing apps within the Premium Apps Program.
+- [Richtext](https://www.canva.dev/docs/apps/design-guidelines/rich-text.md): Read and replace selected text while preserving its styling.
+- [Search](https://www.canva.dev/docs/apps/design-guidelines/search.md): Guidelines for designing an amazing search experience.
+- [Selection](https://www.canva.dev/docs/apps/design-guidelines/selection.md): The best practices for reading and replacing selected content.
+- [Suspension](https://www.canva.dev/docs/apps/design-guidelines/suspension.md): How apps should behave in a suspended state.
+- [Tables](https://www.canva.dev/docs/apps/design-guidelines/tables.md): The best practices for using tables as a design output.
+- [Toasts](https://www.canva.dev/docs/apps/design-guidelines/toasts.md): Guidelines for displaying short time-based notification
+
+###### App UI Kit
+
+- [Overview](https://www.canva.dev/docs/apps/app-ui-kit.md): What is the App UI Kit? Why use it?
+- [Quickstart](https://www.canva.dev/docs/apps/app-ui-kit/quickstart.md): Get up and running with the App UI Kit.
+- [Design tokens](/docs/apps/app-ui-kit/design-tokens/)
+- [Components](/docs/apps/app-ui-kit/storybook/)
+- [Patterns](/docs/apps/app-ui-kit/storybook/?path=/docs/patterns/)
+
+###### Prebuilt UI
+
+- [SearchableListView](https://www.canva.dev/docs/apps/app-components/searchable-list-view.md): How to use the SearchableListView component.
+- [Changelog](https://www.canva.dev/docs/apps/app-components/changelog.md): The latest changes to the App Components.
+- [Figma resource](https://www.canva.dev/docs/apps/figma-resource.md): Mock up designs for your app.
+
+#### Canva for your platform
+
+- [About Canva's REST APIs](https://www.canva.dev/docs/apps/rest-apis.md): How to integrate Canva into your own platform using the Canva REST APIs.
+
+##### Fundamentals
+
+- [API requests and responses](https://www.canva.dev/docs/apps/rest-apis/requests-responses.md)
+- [Authentication](https://www.canva.dev/docs/apps/rest-apis/authentication.md)
+- [Capabilities](https://www.canva.dev/docs/apps/rest-apis/capabilities.md)
+- [API versions](https://www.canva.dev/docs/apps/rest-apis/versions.md)
+
+##### Development guides
+
+- [Generate images with CRAFT](https://www.canva.dev/docs/apps/rest-apis/generate-images-with-craft.md): Set up an app and generate your first image with Canva's CRAFT-1 2K model.
+- [Autofill designs with data](https://www.canva.dev/docs/apps/rest-apis/autofill-guide.md): How to generate dynamic designs using brand templates, designs, and the Autofill APIs.
+- [Return users to your platform](https://www.canva.dev/docs/apps/rest-apis/return-navigation-guide.md): Let users move seamlessly between your platform and the Canva editor.
+
+##### Design guidelines
+
+- [User experience guidelines](https://www.canva.dev/docs/apps/rest-apis/experience-guidelines.md): How an app on your platform should behave for the people using it.
+- [UI guidelines](https://www.canva.dev/docs/apps/rest-apis/ui-guidelines.md): Learn about using Canva elements in your product.
+- [Brand guidelines](https://www.canva.dev/docs/apps/rest-apis/brand-guidelines.md): Learn how to integrate the Canva brand into your product.
+
+#### Canva for AI assistants
+
+- [About Canva MCP](https://www.canva.dev/docs/apps/mcp.md): Connect AI assistants to Canva's design capabilities.
+
+##### Getting started
+
+- [Access and permissions](https://www.canva.dev/docs/apps/mcp/access.md): How users authenticate to the Canva MCP server, and what they can do once connected.
+- [Verify your Canva MCP app](https://www.canva.dev/docs/apps/mcp/verify-app.md): Confirm your AI application is correctly integrated with the Canva MCP server
+- [Best practices for Canva MCP](https://www.canva.dev/docs/apps/mcp/best-practices.md): Build a reliable, user-trustworthy Canva experience in your AI application.
+- [Troubleshooting](https://www.canva.dev/docs/apps/mcp/troubleshooting.md): Commonly asked questions when integrating with the Canva MCP server.
+- [Tools](/docs/apps/mcp/tools/search-designs/)
+- [Rate limits](/docs/apps/mcp/tools/)
+
+##### Workflows
+
+- [Design edit handoff](https://www.canva.dev/docs/apps/mcp/workflows/design-edit.md): After your agent generates, modifies, or lists a design, always give users a way to open and edit it in Canva.
+
+##### Add your tool to Canva AI
+
+- [Connectors in Canva AI](https://www.canva.dev/docs/apps/mcp/canva-ai.md): Bring your app into Canva AI.
+
+##### Policies
+
+- [Usage policy](/docs/apps/mcp/usage-policy/)
+- [Prohibited use](/docs/apps/mcp/prohibited-use/)
+
+### Developer resources
+
+- [Canva CLI](/docs/apps/canva-cli/)
+- [Canva App Scripts](https://www.canva.dev/docs/apps/canva-app-scripts.md): Build and run your app without worrying about the bundler.
+- [Dev MCP server](https://www.canva.dev/docs/apps/dev-mcp-server.md): How to configure the Canva Dev MCP server for an AI-assisted developer experience.
+
+## Publish
+
+
+### Prepare for submission
+
+
+#### App listing guidelines
+
+- [Overview](https://www.canva.dev/docs/apps/app-listing-guidelines.md): Learn about what makes a meaningful app listing.
+- [Written content](https://www.canva.dev/docs/apps/app-listing-guidelines/written-content.md): Learn how to craft effective written content for your app listing.
+- [App icon](https://www.canva.dev/docs/apps/app-listing-guidelines/app-icon.md): Learn how to design the perfect icon for your app.
+- [Featured image](https://www.canva.dev/docs/apps/app-listing-guidelines/featured-image.md): Learn how to visually represent the functionality of your app.
+- [Listing behavior](https://www.canva.dev/docs/apps/app-listing-guidelines/behavior.md): Learn how to set where your app’s listing takes users.
+- [App support and links](https://www.canva.dev/docs/apps/app-listing-guidelines/app-urls.md): Learn about the required URLs for your app listing.
+- [Submission checklist](https://www.canva.dev/docs/apps/submission-checklist.md): What to do before submitting an app for review.
+- [Developer verification](https://www.canva.dev/docs/apps/developer-verification.md): Developers in the Apps Marketplace must now provide additional information during the submission process.
+
+### Submission and release
+
+- [Submit your app](https://www.canva.dev/docs/apps/submitting-apps.md): An introduction to the app submission process.
+- [App review process](https://www.canva.dev/docs/apps/app-review-process.md): An overview of how apps are reviewed.
+- [Releasing apps](https://www.canva.dev/docs/apps/releasing-apps.md): How to release an app to the public or a team.
+
+### Private apps
+
+- [Managing private apps](https://www.canva.dev/docs/apps/managing-team-apps.md): How to manage private apps as a team owner or administrator.
+
+## Manage
+
+
+### App lifecycle
+
+- [App versioning](https://www.canva.dev/docs/apps/versioning-apps.md): How to create a new version of an app.
+- [Canva REST API versioning](https://www.canva.dev/docs/apps/rest-apis/manage-versions.md): How to manage the Canva REST API version that your app uses.
+- [Disabled apps](https://www.canva.dev/docs/apps/handling-disabled-apps.md): What to do if your app is disabled.
+- [Deep linking](https://www.canva.dev/docs/apps/deep-linking.md): How to link directly to apps in the Canva editor.
+
+### Growth and performance
+
+- [Analytics](https://www.canva.dev/docs/apps/analytics.md): How to track the discovery and usage of an app.
+- [Getting featured](https://www.canva.dev/docs/apps/getting-featured.md): Learn how your app can be featured or trending in the Apps Marketplace.
+
+### Monetization
+
+- [Overview](https://www.canva.dev/docs/apps/monetization.md): How you can be rewarded for developing apps on Canva that empower our community.
+- [External payment links](https://www.canva.dev/docs/apps/accepting-payments.md): How to monetize apps by accepting payments from users.
+
+#### Premium Apps Program
+
+- [Overview](https://www.canva.dev/docs/apps/premium-apps.md): Monetizing apps with the Premium Apps Program.
+- [Implementing monetization](https://www.canva.dev/docs/apps/premium-apps/implementing-monetization.md): Learn how to add premium features to your app.
+- [Set up payout details](https://www.canva.dev/docs/apps/payout-details.md): Receiving payments from Canva's monetization programs.
+- [Design guidelines](/docs/apps/design-guidelines/premium-apps/)
+- [Learn more](https://www.canva.com/developers/premium-apps-program/)
+
+### Team and access
+
+- [App collaborators](https://www.canva.dev/docs/apps/app-configuration/collaboration.md): How to collaborate on apps with your team.
+
+### Upgrades and migrations
+
+- [Overview](https://www.canva.dev/docs/apps/upgrades-and-migrations.md): Keep your app up to date with the latest Canva features and best practices.
+- [Apps SDK v2 Upgrade guide](https://www.canva.dev/docs/apps/upgrades-and-migrations/v2-migration-guide.md): How to upgrade to Apps SDK v2.
+- [Apps SDK v2 Upgrade FAQ](https://www.canva.dev/docs/apps/upgrades-and-migrations/v2-migration-faq.md): Some important things to know about upgrading to Apps SDK v2.
+- [Design Editor Intent Upgrade guide](https://www.canva.dev/docs/apps/upgrades-and-migrations/design-editor-migration-guide.md): How to upgrade to the Design Editor intent pattern.
+- [App UI Kit v5 Upgrade guide](https://www.canva.dev/docs/apps/upgrades-and-migrations/app-ui-kit-v5-migration.md): Upgrade your app from App UI Kit v4 to v5.
+- [App Scripts Upgrade guide](https://www.canva.dev/docs/apps/upgrades-and-migrations/app-scripts-migration-guide.md): How to migrate an app off a legacy webpack setup and onto @canva/app-scripts.
+
+## Reference
+
+- [Overview](https://www.canva.dev/docs/apps/reference.md): An overview of the reference material for the Canva Developers SDK.
+
+### Apps inside Canva
+
+
+#### API reference
+
+
+##### Latest (GA)
+
+
+###### Asset
+
+- [getTemporaryUrl](https://www.canva.dev/docs/apps/api/latest/asset-get-temporary-url.md): API reference for the getTemporaryUrl method.
+- [findFonts](https://www.canva.dev/docs/apps/api/latest/asset-find-fonts.md): API reference for the findFonts method.
+- [openColorSelector](https://www.canva.dev/docs/apps/api/latest/asset-open-color-selector.md): API reference for the openColorSelector method.
+- [requestFontSelection](https://www.canva.dev/docs/apps/api/latest/asset-request-font-selection.md): API reference for the requestFontSelection method.
+- [searchFonts](https://www.canva.dev/docs/apps/api/latest/asset-search-fonts.md): API reference for the searchFonts method.
+- [upload](https://www.canva.dev/docs/apps/api/latest/asset-upload.md): API reference for the upload method.
+- [Changelog](https://www.canva.dev/docs/apps/api/latest/asset-changelog.md): The latest changes for the Canva Apps SDK @canva/asset package.
+
+###### Asset: Test
+
+- [initTestEnvironment](https://www.canva.dev/docs/apps/api/latest/asset-test-init-test-environment.md): API reference for the initTestEnvironment method.
+
+###### Design
+
+- [addAudioTrack](https://www.canva.dev/docs/apps/api/latest/design-add-audio-track.md): API reference for the addAudioTrack method.
+- [addElementAtCursor](https://www.canva.dev/docs/apps/api/latest/design-add-element-at-cursor.md): API reference for the addElementAtCursor method.
+- [addElementAtPoint](https://www.canva.dev/docs/apps/api/latest/design-add-element-at-point.md): API reference for the addElementAtPoint method.
+- [addNativeElement](https://www.canva.dev/docs/apps/api/latest/design-add-native-element.md): API reference for the addNativeElement method.
+- [addPage](https://www.canva.dev/docs/apps/api/latest/design-add-page.md): API reference for the addPage method.
+- [applyTemplate](https://www.canva.dev/docs/apps/api/latest/design-apply-template.md): API reference for the applyTemplate method.
+- [autofillDesign](https://www.canva.dev/docs/apps/api/latest/design-autofill-design.md): API reference for the autofillDesign method.
+- [bulkCreate.launch](https://www.canva.dev/docs/apps/api/latest/design-bulk-create-launch.md): API reference for the bulkCreate.launch method.
+- [createRichtextRange](https://www.canva.dev/docs/apps/api/latest/design-create-richtext-range.md): API reference for the createRichtextRange method.
+- [editContent](https://www.canva.dev/docs/apps/api/latest/design-edit-content.md): API reference for the editContent method.
+- [getBrandKitColors](https://www.canva.dev/docs/apps/api/latest/design-get-brand-kit-colors.md): API reference for the getBrandKitColors method.
+- [getBrandTemplateMetadata](https://www.canva.dev/docs/apps/api/latest/design-get-brand-template-metadata.md): API reference for the getBrandTemplateMetadata method.
+- [getCurrentPageContext](https://www.canva.dev/docs/apps/api/latest/design-get-current-page-context.md): API reference for the getCurrentPageContext method.
+- [getCurrentPageMetadata](https://www.canva.dev/docs/apps/api/latest/design-get-current-page-metadata.md): API reference for the getCurrentPageMetadata method.
+- [getDefaultPageDimensions](https://www.canva.dev/docs/apps/api/latest/design-get-default-page-dimensions.md): API reference for the getDefaultPageDimensions method.
+- [getDesignColors](https://www.canva.dev/docs/apps/api/latest/design-get-design-colors.md): API reference for the getDesignColors method.
+- [getDesignMetadata](https://www.canva.dev/docs/apps/api/latest/design-get-design-metadata.md): API reference for the getDesignMetadata method.
+- [getDesignTemplateMetadata](https://www.canva.dev/docs/apps/api/latest/design-get-design-template-metadata.md): API reference for the getDesignTemplateMetadata method.
+- [getDesignToken](https://www.canva.dev/docs/apps/api/latest/design-get-design-token.md): API reference for the getDesignToken method.
+- [initAppElement](https://www.canva.dev/docs/apps/api/latest/design-init-app-element.md): API reference for the initAppElement method.
+- [openDesign](https://www.canva.dev/docs/apps/api/latest/design-open-design.md): API reference for the openDesign method.
+- [overlay.registerOnCanOpen](https://www.canva.dev/docs/apps/api/latest/design-overlay-register-on-can-open.md): API reference for the overlay.registerOnCanOpen method.
+- [publish.launch](https://www.canva.dev/docs/apps/api/latest/design-publish-launch.md): API reference for the publish.launch method.
+- [requestApplyPublicTemplate](https://www.canva.dev/docs/apps/api/latest/design-request-apply-public-template.md): API reference for the requestApplyPublicTemplate method.
+- [requestBrandTemplates](https://www.canva.dev/docs/apps/api/latest/design-request-brand-templates.md): API reference for the requestBrandTemplates method.
+- [requestDataFieldMatching](https://www.canva.dev/docs/apps/api/latest/design-request-data-field-matching.md): API reference for the requestDataFieldMatching method.
+- [requestExport](https://www.canva.dev/docs/apps/api/latest/design-request-export.md): API reference for the requestExport method.
+- [selection.registerOnChange](https://www.canva.dev/docs/apps/api/latest/design-selection-register-on-change.md): API reference for the selection.registerOnChange method.
+- [setCurrentPageBackground](https://www.canva.dev/docs/apps/api/latest/design-set-current-page-background.md): API reference for the setCurrentPageBackground method.
+- [setDataFieldLabelVisibility](https://www.canva.dev/docs/apps/api/latest/design-set-data-field-label-visibility.md): API reference for the setDataFieldLabelVisibility method.
+- [ui.startDragToCursor](https://www.canva.dev/docs/apps/api/latest/design-ui-start-drag-to-cursor.md): API reference for the ui.startDragToCursor method.
+- [ui.startDragToPoint](https://www.canva.dev/docs/apps/api/latest/design-ui-start-drag-to-point.md): API reference for the ui.startDragToPoint method.
+- [ui.startDrag](https://www.canva.dev/docs/apps/api/latest/design-ui-start-drag.md): API reference for the ui.startDrag method.
+- [Changelog](https://www.canva.dev/docs/apps/api/latest/design-changelog.md): The latest changes for the Canva Apps SDK @canva/design package.
+
+###### Design: Test
+
+- [initTestEnvironment](https://www.canva.dev/docs/apps/api/latest/design-test-init-test-environment.md): API reference for the initTestEnvironment method.
+
+###### Error
+
+- [Changelog](https://www.canva.dev/docs/apps/api/latest/error-changelog.md): The latest changes for the Canva Apps SDK @canva/error package.
+
+###### Error: Test
+
+- [initTestEnvironment](https://www.canva.dev/docs/apps/api/latest/error-test-init-test-environment.md): API reference for the initTestEnvironment method.
+
+###### Intents
+
+- [Changelog](https://www.canva.dev/docs/apps/api/latest/intents-changelog.md): The latest changes for the Canva Apps SDK @canva/intents package.
+
+###### Intents: Content
+
+- [prepareContentPublisher](https://www.canva.dev/docs/apps/api/latest/intents-content-prepare-content-publisher.md): API reference for the prepareContentPublisher method.
+
+###### Intents: Data
+
+- [prepareDataConnector](https://www.canva.dev/docs/apps/api/latest/intents-data-prepare-data-connector.md): API reference for the intents prepareDataConnector method.
+- [requestDataTable](https://www.canva.dev/docs/apps/api/latest/intents-data-request-data-table.md): API reference for the requestDataTable method.
+
+###### Intents: Design
+
+- [prepareDesignEditor](https://www.canva.dev/docs/apps/api/latest/intents-design-prepare-design-editor.md): API reference for the intents prepareDesignEditor method.
+
+###### Intents: Test
+
+- [initTestEnvironment](https://www.canva.dev/docs/apps/api/latest/intents-test-init-test-environment.md): API reference for the initTestEnvironment method.
+
+###### Platform
+
+- [appProcess](https://www.canva.dev/docs/apps/api/latest/platform-app-process.md): API reference for the appProcess namespace.
+- [appProcess.broadcastMessage](https://www.canva.dev/docs/apps/api/latest/platform-app-process-broadcast-message.md): API reference for the appProcess.broadcastMessage method.
+- [appProcess.current](https://www.canva.dev/docs/apps/api/latest/platform-app-process-current.md): API reference for the appProcess.current property.
+- [appProcess.current.getInfo](https://www.canva.dev/docs/apps/api/latest/platform-app-process-current-get-info.md): API reference for the appProcess.current.getInfo method.
+- [appProcess.current.requestClose](https://www.canva.dev/docs/apps/api/latest/platform-app-process-current-request-close.md): API reference for the appProcess.current.requestClose method.
+- [appProcess.current.setOnDispose](https://www.canva.dev/docs/apps/api/latest/platform-app-process-current-set-on-dispose.md): API reference for the appProcess.current.setOnDispose method.
+- [appProcess.requestClose](https://www.canva.dev/docs/apps/api/latest/platform-app-process-request-close.md): API reference for the appProcess.requestClose method.
+- [appProcess.registerOnMessage](https://www.canva.dev/docs/apps/api/latest/platform-app-process-register-on-message.md): API reference for the appProcess.registerOnMessage method.
+- [appProcess.registerOnStateChange](https://www.canva.dev/docs/apps/api/latest/platform-app-process-register-on-state-change.md): API reference for the appProcess.registerOnStateChange method.
+- [features.isSupported](https://www.canva.dev/docs/apps/api/latest/platform-features-is-supported.md): API reference for the features.isSupported method.
+- [features.registerOnSupportChange](https://www.canva.dev/docs/apps/api/latest/platform-features-register-on-support-change.md): API reference for the features.registerOnSupportChange method.
+- [getPlatformInfo](https://www.canva.dev/docs/apps/api/latest/platform-get-platform-info.md): API reference for the getPlatformInfo method.
+- [notification.addToast](https://www.canva.dev/docs/apps/api/latest/platform-notification-add-toast.md): API reference for the notification.addToast method.
+- [requestOpenExternalUrl](https://www.canva.dev/docs/apps/api/latest/platform-request-open-external-url.md): API reference for the requestOpenExternalUrl method.
+- [Changelog](https://www.canva.dev/docs/apps/api/latest/platform-changelog.md): The latest changes for the Canva Apps SDK @canva/platform package.
+
+###### Platform: Test
+
+- [initTestEnvironment](https://www.canva.dev/docs/apps/api/latest/platform-test-init-test-environment.md): API reference for the initTestEnvironment method.
+
+###### User
+
+- [auth.getCanvaUserToken](https://www.canva.dev/docs/apps/api/latest/user-auth-get-canva-user-token.md): API reference for the auth.getCanvaUserToken method.
+- [auth.initOauth](https://www.canva.dev/docs/apps/api/latest/user-auth-init-oauth.md): API reference for the auth.initOauth method.
+- [monetization.isEnabled](https://www.canva.dev/docs/apps/api/latest/user-monetization-is-enabled.md): API reference for the monetization.isEnabled method.
+- [monetization.openTrackingSession](https://www.canva.dev/docs/apps/api/latest/user-monetization-open-tracking-session.md): API reference for the monetization.openTrackingSession method.
+- [monetization.requestEnableBillableAction](https://www.canva.dev/docs/apps/api/latest/user-monetization-request-enable-billable-action.md): API reference for the monetization.requestEnableBillableAction method.
+- [Changelog](https://www.canva.dev/docs/apps/api/latest/user-changelog.md): The latest changes for the Canva Apps SDK @canva/user package.
+
+###### User: Test
+
+- [initTestEnvironment](https://www.canva.dev/docs/apps/api/latest/user-test-init-test-environment.md): API reference for the initTestEnvironment method.
+
+###### App scripts
+
+- [build](https://www.canva.dev/docs/apps/api/latest/app-scripts-build.md): API reference for the build method.
+- [defineConfig](https://www.canva.dev/docs/apps/api/latest/app-scripts-define-config.md): API reference for the defineConfig method.
+- [dev](https://www.canva.dev/docs/apps/api/latest/app-scripts-dev.md): API reference for the dev method.
+- [extractTranslations](https://www.canva.dev/docs/apps/api/latest/app-scripts-extract-translations.md): API reference for the extractTranslations method.
+- [prepareConfig](https://www.canva.dev/docs/apps/api/latest/app-scripts-prepare-config.md): API reference for the prepareConfig method.
+- [Changelog](https://www.canva.dev/docs/apps/api/latest/app-scripts-changelog.md): The latest changes for the Canva Apps SDK @canva/app-scripts package.
+
+###### Test
+
+- [initTestEnvironment](https://www.canva.dev/docs/apps/api/latest/test-init-test-environment.md): API reference for the initTestEnvironment method.
+
+##### Preview (Beta)
+
+
+###### Asset
+
+- [searchFonts](https://www.canva.dev/docs/apps/api/preview/asset-search-fonts.md): API reference for the searchFonts method.
+- [Changelog](https://www.canva.dev/docs/apps/api/preview/asset-changelog.md): The latest changes for the Canva Apps SDK @canva/asset@beta package.
+
+###### Asset: Test
+
+
+###### Design
+
+- [applyTemplate](https://www.canva.dev/docs/apps/api/preview/design-apply-template.md): API reference for the applyTemplate method.
+- [autofillDesign](https://www.canva.dev/docs/apps/api/preview/design-autofill-design.md): API reference for the autofillDesign method.
+- [duplicatePage](https://www.canva.dev/docs/apps/api/preview/design-duplicate-page.md): API reference for the duplicatePage method.
+- [editContent](https://www.canva.dev/docs/apps/api/preview/design-edit-content.md): API reference for the editContent method.
+- [getBrandKitColors](https://www.canva.dev/docs/apps/api/preview/design-get-brand-kit-colors.md): API reference for the getBrandKitColors method.
+- [getBrandTemplateMetadata](https://www.canva.dev/docs/apps/api/preview/design-get-brand-template-metadata.md): API reference for the getBrandTemplateMetadata method.
+- [getCurrentPageMetadata](https://www.canva.dev/docs/apps/api/preview/design-get-current-page-metadata.md): API reference for the getCurrentPageMetadata method.
+- [getDesignColors](https://www.canva.dev/docs/apps/api/preview/design-get-design-colors.md): API reference for the getDesignColors method.
+- [getDesignTemplateMetadata](https://www.canva.dev/docs/apps/api/preview/design-get-design-template-metadata.md): API reference for the getDesignTemplateMetadata method.
+- [requestApplyPublicTemplate](https://www.canva.dev/docs/apps/api/preview/design-request-apply-public-template.md): API reference for the requestApplyPublicTemplate method.
+- [requestBrandTemplates](https://www.canva.dev/docs/apps/api/preview/design-request-brand-templates.md): API reference for the requestBrandTemplates method.
+- [requestDataFieldMatching](https://www.canva.dev/docs/apps/api/preview/design-request-data-field-matching.md): API reference for the requestDataFieldMatching method.
+- [setDataFieldLabelVisibility](https://www.canva.dev/docs/apps/api/preview/design-set-data-field-label-visibility.md): API reference for the setDataFieldLabelVisibility method.
+- [Changelog](https://www.canva.dev/docs/apps/api/preview/design-changelog.md): The latest changes for the Canva Apps SDK @canva/design@beta package.
+
+###### Design: Test
+
+
+###### Intents
+
+- [Changelog](https://www.canva.dev/docs/apps/api/preview/intents-changelog.md): The latest changes for the Canva Apps SDK @canva/intents@beta package.
+
+###### Intents: Asset
+
+
+###### Intents: Content
+
+- [prepareContentPublisher](https://www.canva.dev/docs/apps/api/preview/intents-content-prepare-content-publisher.md): API reference for the prepareContentPublisher method.
+
+###### Intents: Data
+
+- [requestDataTable](https://www.canva.dev/docs/apps/api/preview/intents-data-request-data-table.md): API reference for the requestDataTable method.
+
+###### Intents: Design
+
+
+###### Intents: Test
+
+
+###### Platform
+
+- [features.isSupported](https://www.canva.dev/docs/apps/api/preview/platform-features-is-supported.md): API reference for the features.isSupported method.
+- [features.registerOnSupportChange](https://www.canva.dev/docs/apps/api/preview/platform-features-register-on-support-change.md): API reference for the features.registerOnSupportChange method.
+- [notification.addToast](https://www.canva.dev/docs/apps/api/preview/platform-notification-add-toast.md): API reference for the notification.addToast method.
+- [Changelog](https://www.canva.dev/docs/apps/api/preview/platform-changelog.md): The latest changes for the Canva Apps SDK @canva/platform@beta package.
+
+###### Platform: Test
+
+
+###### User
+
+- [Changelog](https://www.canva.dev/docs/apps/api/preview/user-changelog.md): The latest changes for the Canva Apps SDK @canva/user@beta package.
+
+###### User: Test
+
+
+###### App middleware
+
+- [initDesignTokenVerifier](https://www.canva.dev/docs/apps/api/preview/app-middleware-init-design-token-verifier.md): API reference for the initDesignTokenVerifier method.
+- [initBrandTemplateTokenVerifier](https://www.canva.dev/docs/apps/api/preview/app-middleware-init-brand-template-token-verifier.md): API reference for the initBrandTemplateTokenVerifier method.
+- [Changelog](https://www.canva.dev/docs/apps/api/preview/app-middleware-changelog.md): The latest changes for the Canva Apps SDK @canva/app-middleware@beta package.
+
+###### App middleware: Express
+
+- [design.verifyToken](https://www.canva.dev/docs/apps/api/preview/app-middleware-express-design-verify-token.md): API reference for the design.verifyToken method.
+- [brandTemplate.verifyToken](https://www.canva.dev/docs/apps/api/preview/app-middleware-express-brand-template-verify-token.md): API reference for the brandTemplate.verifyToken method.
+
+###### Error
+
+- [Changelog](https://www.canva.dev/docs/apps/api/preview/error-changelog.md): The latest changes for the Canva Apps SDK @canva/error@beta package.
+
+###### Error: Test
+
+- [Permissions](https://www.canva.dev/docs/apps/configuring-intents-permissions.md): How to manage an app's permissions.
+- [Error codes](https://www.canva.dev/docs/apps/intents-error-codes.md): The error codes a Canva Developers SDK method can throw.
+
+#### App UI Kit reference
+
+- [Playroom](https://playroom.canva.dev/app-ui-kit/)
+- [Changelog](https://www.canva.dev/docs/apps/app-ui-kit/changelog.md): The latest changes to the App UI Kit.
+
+##### Design tokens
+
+- [Overview](https://www.canva.dev/docs/apps/app-ui-kit/design-tokens.md): What are design tokens? Why use them?
+- [Colors](https://www.canva.dev/docs/apps/app-ui-kit/colors.md): An overview of colors in the App UI Kit.
+- [Shadows](https://www.canva.dev/docs/apps/app-ui-kit/shadows.md): An overview of shadows in the App UI Kit.
+- [Spacing](https://www.canva.dev/docs/apps/app-ui-kit/spacing.md): An overview of spacing in the App UI Kit.
+- [Transitions](https://www.canva.dev/docs/apps/app-ui-kit/transitions.md): An overview of transitions in the App UI Kit.
+- [Units](https://www.canva.dev/docs/apps/app-ui-kit/units.md): An overview of units in the App UI Kit.
+
+##### UI Components
+
+- [Accordion](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-accordion--docs)
+- [Alert](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-informational-alert--docs)
+- [Avatar](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-avatar-avatar--docs)
+- [AvatarGroup](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-avatar-avatargroup--docs)
+- [AudioCard](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-audiocard--docs)
+- [Badge](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-informational-badge--docs)
+- [Box](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-box--docs)
+- [Button](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-action-button--docs)
+- [Carousel](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-carousel--docs)
+- [Checkbox](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-checkbox--docs)
+- [CheckboxGroup](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-checkboxgroup--docs)
+- [ColorSelector](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-color-colorselector--docs)
+- [Column](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-column--docs)
+- [Columns](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-columns--docs)
+- [CustomizableSelect](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-customizableselect--docs)
+- [DateInput](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-date-input--docs)
+- [EmbedCard](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-embedcard--docs)
+- [FileInput](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-file-input--docs)
+- [FileInputItem](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-file-input-item--docs)
+- [Flyout](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-surface-flyout--docs)
+- [FlyoutMenu](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-surface-flyoutmenu--docs)
+- [FormField](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-form-field--docs)
+- [Grid](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-grid--docs)
+- [HorizontalCard](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-horizontalcard--docs)
+- [HtmlPreview](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-preview-htmlpreview--docs)
+- [Icons](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-icons-icons--docs)
+- [ImageCard](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-imagecard--docs)
+- [InputPill](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-pillsinput-inputpill--docs)
+- [Link](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-link-link--docs)
+- [LinkButton](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-link-linkbutton--docs)
+- [LoadingIndicator](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-loading-indicator--docs)
+- [Masonry](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-masonry--docs)
+- [MultilineInput](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-multilineinput--docs)
+- [NumberInput](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-number-input--docs)
+- [Pill](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-action-pill--docs)
+- [PillsInput](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-pillsinput--docs)
+- [Placeholder](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-placeholder-placeholder--docs)
+- [ProgressBar](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-progress-bar--docs)
+- [RadioGroup](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-radio-group--docs)
+- [Rows](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-rows--docs)
+- [Scrollable](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-layout-scrollable--docs)
+- [SearchInputMenu](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-search-input-menu--docs)
+- [SegmentedControl](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-segmented-control--docs)
+- [Select](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-select--docs)
+- [Slider](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-slider--docs)
+- [SurfaceHeader](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-surface-surfaceheader--docs)
+- [Swatch](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-color-swatch--docs)
+- [Switch](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-switch--docs)
+- [Tabs](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-tabs-tabs--docs)
+- [Text](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-typography-text--docs)
+- [TextInput](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-text-input--docs)
+- [TextPlaceholder](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-placeholder-text-placeholder--docs)
+- [TimeInput](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-form-time-input--docs)
+- [Title](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-typography-title--docs)
+- [TitlePlaceholder](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-progress-placeholder-title-placeholder--docs)
+- [TruncatedText](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-typography-truncatedtext--docs)
+- [TypographyCard](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-typographycard--docs)
+- [VideoCard](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/components-card-videocard--docs)
+
+##### UI Patterns
+
+- [Empty State](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-empty-state-empty-state--docs)
+- [Flyout](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-flyout-icon-button-with-flyout-menu--docs)
+- [Loading Progress Bar](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-loading-loading-progress-bar--docs)
+- [Monetization Status](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-monetization-status-monetization-status--docs)
+- [Search](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-search-search-input-menu-with-flyout--docs)
+- [Small Buttons](https://www.canva.dev/docs/apps/app-ui-kit/storybook/?path=/docs/patterns-small-buttons-small-buttons-in-input-fields--docs)
+- [Apps Scripts config reference](https://www.canva.dev/docs/apps/canva-app-scripts/configuration-reference.md): Every default value @canva/app-scripts applies, and the full resolved bundler configuration.
+- [Localization syntax](https://www.canva.dev/docs/apps/localization/icu-syntax.md): Canva supports a subset of International Components for Unicode (ICU).
+
+### Canva for your platform
+
+
+#### Canva REST API reference
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference.md): The endpoints, parameters, and responses for the Canva REST APIs.
+
+##### Authentication
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/authentication.md): The Canva REST APIs for managing OAuth tokens.
+- [Generate access token](https://www.canva.dev/docs/apps/rest-apis/reference/authentication/generate-access-token.md): Generate access tokens to access the Canva REST APIs.
+- [Introspect access token](https://www.canva.dev/docs/apps/rest-apis/reference/authentication/introspect-access-token.md): Introspect a token to see its validity and properties.
+- [Revoke token](https://www.canva.dev/docs/apps/rest-apis/reference/authentication/revoke-token.md): Revoke a token and its lineage.
+
+##### Analytics
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/analytics.md): The Canva REST APIs for retrieving design analytics.
+- [Get design analytics](https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics.md): Get analytics for a design, including total views and viewers.
+- [Get design analytics links](https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-links.md): Get analytics for links in a design.
+- [Get design analytics page views](https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-page-views.md): Get analytics for individual pages in a design.
+- [Get design analytics viewers](https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-viewers.md): Get information about users who have viewed a design.
+- [Get design analytics views over time](https://www.canva.dev/docs/apps/rest-apis/reference/analytics/get-design-analytics-views-over-time.md): Get the view count for a design over a time period.
+
+##### Assets
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/assets.md): The Canva REST APIs for managing assets.
+- [Create asset upload job](https://www.canva.dev/docs/apps/rest-apis/reference/assets/create-asset-upload-job.md): Create an asynchronous job to upload an asset.
+- [Get asset upload job](https://www.canva.dev/docs/apps/rest-apis/reference/assets/get-asset-upload-job.md): Get the status and results of an upload asset job.
+- [Create asset upload job via URL](https://www.canva.dev/docs/apps/rest-apis/reference/assets/create-url-asset-upload-job.md): Create an asynchronous job to upload an asset from a URL.
+- [Get asset upload job via URL](https://www.canva.dev/docs/apps/rest-apis/reference/assets/get-url-asset-upload-job.md): Get the status and results of job to upload asset from a URL.
+- [Get asset](https://www.canva.dev/docs/apps/rest-apis/reference/assets/get-asset.md): Get the metadata for an asset in the user's Project.
+- [Update asset](https://www.canva.dev/docs/apps/rest-apis/reference/assets/update-asset.md): Update the metadata for an asset in the users Projects.
+- [Delete asset](https://www.canva.dev/docs/apps/rest-apis/reference/assets/delete-asset.md): Delete an asset from the user's Projects.
+
+##### Autofill
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/autofills.md): The Canva REST APIs for filling brand templates and designs with data.
+- [Create design autofill job](https://www.canva.dev/docs/apps/rest-apis/reference/autofills/create-design-autofill-job.md): Create an asynchronous job to autofill a design from a brand template with your input information.
+- [Get design autofill job](https://www.canva.dev/docs/apps/rest-apis/reference/autofills/get-design-autofill-job.md): Get the status and results of an autofill job, including the autofilled design.
+
+##### Brand templates
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates.md): The Canva REST APIs for working with brand templates.
+- [Publish brand template](https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/publish-brand-template.md): Publish a design as a brand template.
+- [Get brand template](https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/get-brand-template.md): Get the metadata for one of the user's brand templates.
+- [Get brand template dataset](https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/get-brand-template-dataset.md): Check if a brand template has autofillable fields and what type of information the fields accept.
+- [List brand templates](https://www.canva.dev/docs/apps/rest-apis/reference/brand-templates/list-brand-templates.md): List all the user's brand templates.
+
+##### Comments
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/comments.md): The Canva REST APIs for design comments.
+- [Create thread](https://www.canva.dev/docs/apps/rest-apis/reference/comments/create-thread.md): Create a new comment thread on a design.
+- [Create reply](https://www.canva.dev/docs/apps/rest-apis/reference/comments/create-reply.md): Reply to a comment on a design.
+- [Get thread](https://www.canva.dev/docs/apps/rest-apis/reference/comments/get-thread.md): Get metadata for a comment thread.
+- [Get reply](https://www.canva.dev/docs/apps/rest-apis/reference/comments/get-reply.md): Get a comment reply.
+- [List replies](https://www.canva.dev/docs/apps/rest-apis/reference/comments/list-replies.md): List the replies to a comment on a design.
+- [Create comment (deprecated)](https://www.canva.dev/docs/apps/rest-apis/reference/comments/create-comment.md): Create a new comment on a design.
+
+##### Designs
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/designs.md): The Canva REST APIs for managing designs.
+- [Create design](https://www.canva.dev/docs/apps/rest-apis/reference/designs/create-design.md): Create a Canva design.
+- [List designs](https://www.canva.dev/docs/apps/rest-apis/reference/designs/list-designs.md): List all the user's designs.
+- [Get design](https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design.md): Get the metadata for one of the user's designs.
+- [Get design pages](https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design-pages.md): Get the metadata for pages in a design.
+- [Get design export formats](https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design-export-formats.md): Get the export formats available for a design.
+- [Get design dataset](https://www.canva.dev/docs/apps/rest-apis/reference/designs/get-design-dataset.md): Check if a design has autofillable fields and what type of information the fields accept.
+
+##### Design imports
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/design-imports.md): The Canva REST APIs for importing designs from other applications into Canva.
+- [Create design import job](https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/create-design-import-job.md): Create an asynchronous job to import a design created in another application.
+- [Get design import job](https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/get-design-import-job.md): Get the status and results of a design import job, including the imported design.
+- [Create image-to-design import job](https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/create-image-to-design-import-job.md)
+- [Get image-to-design import job](https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/get-image-to-design-import-job.md)
+- [Create URL import job](https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/create-url-import-job.md): Create an asynchronous job to import a design created in another application, using a URL.
+- [Get URL import job](https://www.canva.dev/docs/apps/rest-apis/reference/design-imports/get-url-import-job.md): Get the status and results of a URL import job, including the imported design.
+
+##### Exports
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/exports.md): The Canva REST APIs for exporting designs.
+- [Create design export job](https://www.canva.dev/docs/apps/rest-apis/reference/exports/create-design-export-job.md): Create an asynchronous job to export a design from Canva.
+- [Get design export job](https://www.canva.dev/docs/apps/rest-apis/reference/exports/get-design-export-job.md): Get the status and results of an export job, including link(s) to the downloadable file(s).
+
+##### Folders
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/folders.md): The Canva REST APIs for managing folders.
+- [Create folder](https://www.canva.dev/docs/apps/rest-apis/reference/folders/create-folder.md): Create a new folder in the user's Projects.
+- [Get folder](https://www.canva.dev/docs/apps/rest-apis/reference/folders/get-folder.md): Retrieve a folder's metadata.
+- [Update folder](https://www.canva.dev/docs/apps/rest-apis/reference/folders/update-folder.md): Update a folder's metadata.
+- [Delete folder](https://www.canva.dev/docs/apps/rest-apis/reference/folders/delete-folder.md): Delete a folder.
+- [List folder items](https://www.canva.dev/docs/apps/rest-apis/reference/folders/list-folder-items.md): List the contents of a folder.
+- [Move folder item](https://www.canva.dev/docs/apps/rest-apis/reference/folders/move-folder-item.md): Move an item from one folder to another.
+
+##### Generations
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/generations.md): The Canva REST APIs for generating designs and images.
+- [Create design generation job](https://www.canva.dev/docs/apps/rest-apis/reference/generations/create-design-generation-job.md)
+- [Create image generation job](https://www.canva.dev/docs/apps/rest-apis/reference/generations/create-image-generation-job.md)
+- [Get design generation job](https://www.canva.dev/docs/apps/rest-apis/reference/generations/get-design-generation-job.md)
+- [Get image generation job](https://www.canva.dev/docs/apps/rest-apis/reference/generations/get-image-generation-job.md)
+
+##### Image transformations
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/image-transformations.md): The Canva REST APIs for applying automated transformations to image assets.
+- [Create image transformation job](https://www.canva.dev/docs/apps/rest-apis/reference/image-transformations/create-image-transformation-job.md)
+- [Get image transformation job](https://www.canva.dev/docs/apps/rest-apis/reference/image-transformations/get-image-transformation-job.md)
+
+##### Merges
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/merges.md): The Canva REST APIs for merging designs.
+- [Create design merge job](https://www.canva.dev/docs/apps/rest-apis/reference/merges/create-design-merge-job.md)
+- [Get design merge job](https://www.canva.dev/docs/apps/rest-apis/reference/merges/get-design-merge-job.md)
+
+##### Resizes
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/resizes.md): The Canva REST APIs for resizing designs.
+- [Create design resize job](https://www.canva.dev/docs/apps/rest-apis/reference/resizes/create-design-resize-job.md)
+- [Get design resize job](https://www.canva.dev/docs/apps/rest-apis/reference/resizes/get-design-resize-job.md)
+
+##### Users
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/reference/users.md): The Canva REST APIs for user information.
+- [Get current user](https://www.canva.dev/docs/apps/rest-apis/reference/users/users-me.md)
+- [Get current user profile](https://www.canva.dev/docs/apps/rest-apis/reference/users/users-profile.md)
+- [Get user capabilities](https://www.canva.dev/docs/apps/rest-apis/reference/users/get-user-capabilities.md)
+- [Keys](https://www.canva.dev/docs/apps/rest-apis/reference/webhooks/keys.md): API reference for the keys method.
+- [Scopes](https://www.canva.dev/docs/apps/rest-apis/scopes.md)
+- [Error responses](https://www.canva.dev/docs/apps/rest-apis/error-responses.md)
+- [Credit rates](https://www.canva.dev/docs/apps/rest-apis/credit-rates.md): Understand how API jobs use credits, and how many credits each job costs.
+
+#### Webhooks notification reference
+
+- [Overview](https://www.canva.dev/docs/apps/rest-apis/webhooks.md): Receive real-time notification data for your users.
+
+##### Access
+
+- [Design access requested](https://www.canva.dev/docs/apps/rest-apis/webhooks/design-access-requested-notification.md): The NotificationContent sent when a user requests access to a design.
+- [Folder access requested](https://www.canva.dev/docs/apps/rest-apis/webhooks/folder-access-requested-notification.md): The NotificationContent sent when a user requests access to a folder.
+- [Team invite](https://www.canva.dev/docs/apps/rest-apis/webhooks/team-invite-notification.md): The NotificationContent sent when inviting a user to join a team.
+
+##### Approvals
+
+- [Design approval requested](https://www.canva.dev/docs/apps/rest-apis/webhooks/design-approval-requested-notification.md): The NotificationContent sent when a user requests approval for a design.
+- [Design approval response](https://www.canva.dev/docs/apps/rest-apis/webhooks/design-approval-response-notification.md): The NotificationContent sent when a user responds to a design approval request.
+- [Design approval reviewer invalidated](https://www.canva.dev/docs/apps/rest-apis/webhooks/design-approval-reviewer-invalidated-notification.md): The NotificationContent sent when a reviewer in a design is invalidated.
+
+##### Collaborating
+
+- [Comment](https://www.canva.dev/docs/apps/rest-apis/webhooks/comment-notification.md): The NotificationContent sent when a user comments on a design.
+- [Suggestion](https://www.canva.dev/docs/apps/rest-apis/webhooks/suggestion-notification.md): The NotificationContent sent when a user suggests an edit to a design.
+
+##### Sharing
+
+- [Share design](https://www.canva.dev/docs/apps/rest-apis/webhooks/share-design-notification.md): The NotificationContent sent when a user shares a design.
+- [Share folder](https://www.canva.dev/docs/apps/rest-apis/webhooks/share-folder-notification.md): The NotificationContent sent when a user shares a folder.
+- [Changelog](https://www.canva.dev/docs/apps/rest-apis/changelog.md)
+
+### Canva for AI assistants
+
+
+#### Tools
+
+
+##### Discovery
+
+- [search-designs](https://www.canva.dev/docs/apps/mcp/tools/search-designs.md): Find a user's existing designs by keyword.
+- [get-design](https://www.canva.dev/docs/apps/mcp/tools/get-design.md): Look up the metadata and access links for one design.
+- [get-design-content](https://www.canva.dev/docs/apps/mcp/tools/get-design-content.md): Read a design's text content for read-only inspection.
+- [get-design-pages](https://www.canva.dev/docs/apps/mcp/tools/get-design-pages.md): List the pages of a multi-page design.
+- [resolve-shortlink](https://www.canva.dev/docs/apps/mcp/tools/resolve-shortlink.md): Expand a Canva shortlink into the full design URL it points to.
+
+##### Generation
+
+- [generate-design](https://www.canva.dev/docs/apps/mcp/tools/generate-design.md): Create design candidates from a natural-language brief.
+- [create-design-from-candidate](https://www.canva.dev/docs/apps/mcp/tools/create-design-from-candidate.md): Turn a chosen candidate into a real, editable design.
+- [create-design](https://www.canva.dev/docs/apps/mcp/tools/create-design.md): Generate a new, editable design from a written brief.
+- [get-create-design-async-job](https://www.canva.dev/docs/apps/mcp/tools/get-create-design-async-job.md): Check the status of a design generation job and get the finished design.
+- [separate-image-layers](https://www.canva.dev/docs/apps/mcp/tools/separate-image-layers.md): Turn a flat image into a new design with separately editable layers.
+- [get-separate-image-layers-job](https://www.canva.dev/docs/apps/mcp/tools/get-separate-image-layers-job.md): Check the status of a layer separation job and get the new design.
+
+##### Design operations
+
+- [copy-design](https://www.canva.dev/docs/apps/mcp/tools/copy-design.md): Duplicate a design, or selected pages of it, into a new design.
+- [resize-design](https://www.canva.dev/docs/apps/mcp/tools/resize-design.md): Create a copy of a design adapted to a different canvas size.
+- [merge-designs](https://www.canva.dev/docs/apps/mcp/tools/merge-designs.md): Combine, reorder, insert, or delete whole pages across designs.
+- [import-design-from-url](https://www.canva.dev/docs/apps/mcp/tools/import-design-from-url.md): Turn a publicly hosted file or web page into a new Canva design.
+
+##### Editing
+
+- [start-editing-transaction](https://www.canva.dev/docs/apps/mcp/tools/start-editing-transaction.md): Open an editing session on a design.
+- [perform-editing-operations](https://www.canva.dev/docs/apps/mcp/tools/perform-editing-operations.md): Apply one or more edits within an open editing transaction.
+- [commit-editing-transaction](https://www.canva.dev/docs/apps/mcp/tools/commit-editing-transaction.md): Save draft edits from an editing transaction to the design.
+- [cancel-editing-transaction](https://www.canva.dev/docs/apps/mcp/tools/cancel-editing-transaction.md): Discard the draft edits in an open editing transaction.
+
+##### Images
+
+- [generate-image](https://www.canva.dev/docs/apps/mcp/tools/generate-image.md): Generate a standalone image from a text prompt, or edit reference images.
+- [get-generate-image-job](https://www.canva.dev/docs/apps/mcp/tools/get-generate-image-job.md): Check the status of an image generation job and get the generated image.
+- [remove-background](https://www.canva.dev/docs/apps/mcp/tools/remove-background.md): Remove the background from an image, leaving the subject on a transparent backdrop.
+
+##### Brand templates and autofill
+
+- [search-brand-templates](https://www.canva.dev/docs/apps/mcp/tools/search-brand-templates.md): Find or browse the user's Brand Templates.
+- [create-brand-template-draft](https://www.canva.dev/docs/apps/mcp/tools/create-brand-template-draft.md): Create an editable draft design from a Brand Template.
+- [publish-brand-template](https://www.canva.dev/docs/apps/mcp/tools/publish-brand-template.md): Publish an existing design as a Brand Template.
+- [list-brand-kits](https://www.canva.dev/docs/apps/mcp/tools/list-brand-kits.md): List the Brand Kits available to the user.
+- [create-design-from-brand-template](https://www.canva.dev/docs/apps/mcp/tools/create-design-from-brand-template.md): Create a new, editable design from a Brand Template.
+- [get-brand-template-dataset](https://www.canva.dev/docs/apps/mcp/tools/get-brand-template-dataset.md): List the autofill data fields defined in a Brand Template.
+- [get-design-dataset](https://www.canva.dev/docs/apps/mcp/tools/get-design-dataset.md): List the data fields that an existing design can be autofilled with.
+- [autofill-design](https://www.canva.dev/docs/apps/mcp/tools/autofill-design.md): Populate a design's data fields with text, images, videos, or chart data.
+
+##### Folders
+
+- [create-folder](https://www.canva.dev/docs/apps/mcp/tools/create-folder.md): Create a folder in the user's Canva projects.
+- [list-folder-items](https://www.canva.dev/docs/apps/mcp/tools/list-folder-items.md): Browse the designs, folders, and images inside a Canva folder.
+- [search-folders](https://www.canva.dev/docs/apps/mcp/tools/search-folders.md): Find folders the user owns or that are shared with them.
+- [move-item-to-folder](https://www.canva.dev/docs/apps/mcp/tools/move-item-to-folder.md): Move a design, folder, or image into another Canva folder.
+
+##### Comments
+
+- [comment-on-design](https://www.canva.dev/docs/apps/mcp/tools/comment-on-design.md): Add a new comment to a design.
+- [reply-to-comment](https://www.canva.dev/docs/apps/mcp/tools/reply-to-comment.md): Add a reply to an existing comment thread on a design.
+- [list-comments](https://www.canva.dev/docs/apps/mcp/tools/list-comments.md): List the comment threads on a design.
+- [list-replies](https://www.canva.dev/docs/apps/mcp/tools/list-replies.md): Read the replies in a comment thread on a design.
+
+##### Assets and export
+
+- [upload-asset-from-url](https://www.canva.dev/docs/apps/mcp/tools/upload-asset-from-url.md): Upload an image or video from a public URL to the user's media library.
+- [create-upload-url](https://www.canva.dev/docs/apps/mcp/tools/create-upload-url.md): Get a single-use URL for uploading a file to Canva.
+- [get-assets](https://www.canva.dev/docs/apps/mcp/tools/get-assets.md): Get names, tags, types, and thumbnails for images and videos used in a design.
+- [get-export-formats](https://www.canva.dev/docs/apps/mcp/tools/get-export-formats.md): Check which file formats a design can be exported to.
+- [export-design](https://www.canva.dev/docs/apps/mcp/tools/export-design.md): Export a design to a downloadable file.
+
+##### Help
+
+- [help](https://www.canva.dev/docs/apps/mcp/tools/help.md): Answer Canva product questions with content from the Canva Help Center.
+- [Rate limits](https://www.canva.dev/docs/apps/mcp/tools.md): See all the available tools, their rate limits, and plan availability for the Canva MCP server.
+- [Usage policy](https://www.canva.dev/docs/apps/mcp/usage-policy.md): Guidelines on appropriate and responsible use of Canva’s MCP server.
+- [Prohibited use](https://www.canva.dev/docs/apps/mcp/prohibited-use.md): Understand what uses of Canva's MCP server aren't permitted.
+
+### Security
+
+
+#### Apps inside Canva
+
+- [Security guidelines](https://www.canva.dev/docs/apps/security-guidelines.md): How to keep your app (and its users) secure.
+- [Content Security Policy](https://www.canva.dev/docs/apps/content-security-policy.md): What is a Content Security Policy? How does it affect app development?
+- [Shared responsibility model](https://www.canva.dev/docs/apps/shared-responsibility-intents.md): Shared security responsibilities for developing apps inside Canva.
+
+#### Canva for your platform
+
+- [Security recommendations](https://www.canva.dev/docs/apps/rest-apis/security-recommendations.md): Recommended security practices for your app.
+- [Shared responsibility model](https://www.canva.dev/docs/apps/rest-apis/shared-responsibility.md): Shared security responsibilities for apps built on the Canva REST APIs.
+
+### Canva CLI
+
+- [Overview](https://www.canva.dev/docs/apps/canva-cli.md): CLI for creating and managing Canva Apps, and working with Canva.
+- [canva-app.json](https://www.canva.dev/docs/apps/app-configuration/canva-app-json.md): Configuration file for Canva apps.
+- [Making REST API requests](https://www.canva.dev/docs/apps/canva-cli/making-rest-api-requests.md): How to use the canva api command to make Canva REST API requests from your terminal.
+
+### Policies
+
+- [Deprecation policy](https://www.canva.dev/docs/apps/deprecation-policy.md): How we deprecate features in the Canva Developers SDK.
+- [Restricted uses](https://www.canva.dev/docs/apps/restricted-uses.md): Understand what you must not create, enable, or distribute with the Canva APIs.
+
+## Examples
+
+- [Overview](https://www.canva.dev/docs/apps/examples.md): An overview of the starter templates, reference apps, and feature examples in the Canva Developers SDK docs.
+
+### Starter templates
+
+- [Overview](https://www.canva.dev/docs/apps/app-templates.md)
+- [Hello World](https://www.canva.dev/docs/apps/app-templates/hello-world.md): Create a minimal Canva app as a first example.
+- [Data Connector](https://www.canva.dev/docs/apps/app-templates/data-connector.md): Create a data connector app on Canva that imports data from external sources.
+- [Content Publisher](https://www.canva.dev/docs/apps/app-templates/content-publisher.md): Create a content publishing app that integrates with external platforms.
+- [Digital Asset Management](https://www.canva.dev/docs/apps/app-templates/digital-asset-management.md): Retrieve content from a backend and make it available to a Canva app.
+- [Generative AI](https://www.canva.dev/docs/apps/app-templates/generative-ai.md): Create a generative AI app on Canva with a focus on user experience
+- [Multiple Listing Service](https://www.canva.dev/docs/apps/app-templates/multiple-listing-service.md): Learn how to build an app that integrates MLS data into Canva
+
+### Reference apps
+
+- [Overview](https://www.canva.dev/docs/apps/reference-apps.md): Reference apps that show how to connect your own platform to Canva.
+- [Nourish](https://www.canva.dev/docs/apps/reference-apps/nourish.md): Learn how to connect your marketing platform to Canva and automate content creation workflows
+- [Realty Commercial](https://www.canva.dev/docs/apps/reference-apps/realty-commercial.md): Learn how to connect your real estate platform to Canva and automate property marketing workflows
+
+### Feature examples
+
+- [Overview](https://www.canva.dev/docs/apps/feature-examples.md): Explore our collection of example apps to learn how to implement common features and patterns in your Canva app.
+
+#### App elements
+
+- [App element children](https://www.canva.dev/docs/apps/feature-examples/app-element-children.md): Build composite app elements from multiple child elements.
+- [App embed elements](https://www.canva.dev/docs/apps/feature-examples/app-embed-elements.md): Create embed elements inside app elements.
+- [App image elements](https://www.canva.dev/docs/apps/feature-examples/app-image-elements.md): Create image elements inside app elements.
+- [App shape elements](https://www.canva.dev/docs/apps/feature-examples/app-shape-elements.md): Create shape elements inside app elements.
+- [App text elements](https://www.canva.dev/docs/apps/feature-examples/app-text-elements.md): Create text elements inside app elements.
+- [App video elements](https://www.canva.dev/docs/apps/feature-examples/app-video-elements.md): Create video elements inside app elements.
+
+#### Assets and media
+
+- [Asset upload](https://www.canva.dev/docs/apps/feature-examples/asset-upload.md): Upload and manage assets directly into Canva.
+- [Digital asset management](https://www.canva.dev/docs/apps/feature-examples/digital-asset-management.md): Digital asset management system using Canva app components.
+- [Fonts](https://www.canva.dev/docs/apps/feature-examples/fonts.md): Use the fonts picker to apply custom fonts to text elements in designs.
+- [Image editing overlay](https://www.canva.dev/docs/apps/feature-examples/image-editing-overlay.md): Create custom image editing overlays and filters.
+
+#### Fundamentals
+
+- [Authentication](https://www.canva.dev/docs/apps/feature-examples/authentication.md): Third-party authentication integration for external platforms.
+- [Feature support](https://www.canva.dev/docs/apps/feature-examples/feature-support.md): Feature detection and conditional functionality based on platform support.
+- [Fetch](https://www.canva.dev/docs/apps/feature-examples/fetch.md): Secure communication between apps and servers using the browser's Fetch API.
+- [Multi-account authentication](https://www.canva.dev/docs/apps/feature-examples/multi-account-authentication.md): Multi-account authentication integration for external platforms.
+- [Multi-provider authentication](https://www.canva.dev/docs/apps/feature-examples/multi-provider-authentication.md): Multiple OAuth provider authentication integration for external platforms.
+
+#### Design interaction
+
+- [Autofill](https://www.canva.dev/docs/apps/feature-examples/autofill.md): Match data fields and autofill the current design using a hardcoded data table.
+- [Brand templates](https://www.canva.dev/docs/apps/feature-examples/brand-templates.md): Choose a brand template, preview its details, and apply it to the current design using a securely verified brand template token.
+- [Design audit](https://www.canva.dev/docs/apps/feature-examples/design-audit.md): Audit design elements for positioning issues and automatically fix elements that are too close to page edges.
+- [Design colors](https://www.canva.dev/docs/apps/feature-examples/design-colors.md): Retrieve and access design colors.
+- [Design editing](https://www.canva.dev/docs/apps/feature-examples/design-editing.md): Edit and modify design properties and content.
+- [Design metadata](https://www.canva.dev/docs/apps/feature-examples/design-metadata.md): Retrieve and access design metadata and properties.
+- [Design template metadata](https://www.canva.dev/docs/apps/feature-examples/design-template-metadata.md): Access and retrieve design template metadata
+- [Design token](https://www.canva.dev/docs/apps/feature-examples/design-token.md): Secure token-based authentication and design access.
+- [Export](https://www.canva.dev/docs/apps/feature-examples/export.md): Export designs in various formats and resolutions.
+- [Page addition](https://www.canva.dev/docs/apps/feature-examples/page-addition.md): Add new pages with pre-populated elements to designs.
+- [Page background](https://www.canva.dev/docs/apps/feature-examples/page-background.md): Set and modify page background colors and images.
+- [Positioning elements](https://www.canva.dev/docs/apps/feature-examples/positioning-elements.md): Position elements precisely using page dimensions and coordinates.
+
+#### UI
+
+- [Color](https://www.canva.dev/docs/apps/feature-examples/color.md): Color picker for Brand, Document, and custom colors.
+- [Masonry](https://www.canva.dev/docs/apps/feature-examples/masonry.md): Masonry layout implementation using the App UI Kit.
+- [Notification](https://www.canva.dev/docs/apps/feature-examples/notification.md): Display toast notifications to users.
+- [Open external link](https://www.canva.dev/docs/apps/feature-examples/open-external-link.md): Open external URLs safely from within Canva apps.
+
+#### Intents
+
+- [Content publisher intent](https://www.canva.dev/docs/apps/feature-examples/content-publisher-intent.md): Content publisher integration for publishing designs to external platforms.
+- [Data connector intent](https://www.canva.dev/docs/apps/feature-examples/data-connector-intent.md): Data connector integration for external data sources.
+- [Intent navigation](https://www.canva.dev/docs/apps/feature-examples/intent-navigation.md): Example app demonstrating navigating from Design Editor intent to the Content Publisher and Data Connector intents in bulk create.
+- [Multiple intents](https://www.canva.dev/docs/apps/feature-examples/implement-multiple-intents.md): Example app demonstrating design editor and content publisher intents together
+- [Request data table](https://www.canva.dev/docs/apps/feature-examples/request-data-table.md): Request a data table from the app's own Data Connector using requestDataTable.
+- [URL expander intent](https://www.canva.dev/docs/apps/feature-examples/url-expander-intent.md): URL expander integration for Canva AI to expand URLs to Canva supported assets.
+
+#### Drag and drop
+
+- [Drag and drop audio](https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-audio.md): Drag-and-drop functionality for audio elements.
+- [Drag and drop embed](https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-embed.md): Drag-and-drop functionality for embed elements.
+- [Drag and drop image](https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-image.md): Drag-and-drop functionality for image elements.
+- [Drag and drop text](https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-text.md): Demonstrates how to implement drag-and-drop functionality for text elements with configurable styling properties.
+- [Drag and drop video](https://www.canva.dev/docs/apps/feature-examples/drag-and-drop-video.md): Drag-and-drop functionality for video elements.
+
+#### Design elements
+
+- [Embed elements](https://www.canva.dev/docs/apps/feature-examples/embed-elements.md): Add interactive embed elements to designs.
+- [Group elements](https://www.canva.dev/docs/apps/feature-examples/group-elements.md): Group multiple elements together for unified manipulation.
+- [Image elements](https://www.canva.dev/docs/apps/feature-examples/image-elements.md): Add image elements to designs with editing capabilities.
+- [Richtext elements](https://www.canva.dev/docs/apps/feature-examples/richtext-elements.md): Add rich text elements with formatting to designs.
+- [Shape elements](https://www.canva.dev/docs/apps/feature-examples/shape-elements.md): Add geometric shape elements to designs.
+- [Shape elements with asset](https://www.canva.dev/docs/apps/feature-examples/shape-elements-with-asset.md): Create shape elements with image and video fills.
+- [Table elements](https://www.canva.dev/docs/apps/feature-examples/table-elements.md): Add structured table elements with rows and columns.
+- [Text elements](https://www.canva.dev/docs/apps/feature-examples/text-elements.md): Create and style text elements in designs.
+- [Video elements](https://www.canva.dev/docs/apps/feature-examples/video-elements.md): Add video elements to designs with playback controls.
+
+#### Localization
+
+- [I18n](https://www.canva.dev/docs/apps/feature-examples/i18n.md): Internationalization support using react-intl with ICU syntax implementation.
+
+#### Content replacement
+
+- [Image replacement](https://www.canva.dev/docs/apps/feature-examples/image-replacement.md): Replace selected image elements with custom images.
+- [Richtext replacement](https://www.canva.dev/docs/apps/feature-examples/richtext-replacement.md): Replace selected rich text elements with formatted content.
+- [Text replacement](https://www.canva.dev/docs/apps/feature-examples/text-replacement.md): Replace selected text elements with custom content.
+- [Text translation](https://www.canva.dev/docs/apps/feature-examples/text-translation.md): Replace and translate text elements across different languages.
+- [Video replacement](https://www.canva.dev/docs/apps/feature-examples/video-replacement.md): Replace selected video elements in designs with custom content.
+
+#### Testing
+
+- [UI test](https://www.canva.dev/docs/apps/feature-examples/ui-test.md): UI and snapshot testing App UI.
+- [Unit test](https://www.canva.dev/docs/apps/feature-examples/unit-test.md): Unit testing Apps SDK packages.
