@@ -33,11 +33,18 @@ async function main() {
   const localPath = resolveLocalPath(input);
   const entry = manifest.pages.find(item => item.path === localPath);
   if (!entry) throw new Error('Unknown documented path: ' + localPath + '. Run with --list to see supported paths.');
-  const url = entry.urls?.find(candidate => /^https:\/\/www\.canva\.dev\/docs\/[a-z0-9/_-]+\.md$/i.test(candidate));
-  if (!url) throw new Error('Missing verified official Markdown source URL: ' + localPath);
+  // These aliases are verified live against official Canva endpoints. The index lists HTML routes.
+  const verifiedAliases = {
+    'docs/canva/apps/canva-concepts.md': 'https://www.canva.dev/docs/apps/canva-concepts.md',
+    'docs/canva/scim/index.md': 'https://www.canva.dev/docs/scim.md'
+  };
+  const url = entry.urls?.find(candidate => /^https:\/\/www\.canva\.dev\/docs\/[a-z0-9/_-]+\.md$/i.test(candidate)) || verifiedAliases[entry.path];
   if (sourceOnly) {
-    process.stdout.write(url + '\n');
+    process.stdout.write((url || entry.urls?.[0] || '') + '\n');
     return;
+  }
+  if (!url) {
+    throw new Error('This page has no verified Markdown endpoint. Open the original Canva page instead: ' + entry.urls?.[0]);
   }
   const response = await fetch(url, {
     headers: { Accept: 'text/markdown, text/plain;q=0.9', 'User-Agent': 'utekos-ai-context-docs-reader/1.0' },
